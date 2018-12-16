@@ -1,0 +1,2 @@
+vhdtdtfi -lib work ../CDB_module/CDB_module.vhd -prj Tomasulo_TopLevel -o CDB_module.spl -module CDB_module -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 CDB_module.spl D:/Xillinx_Projects/Tomasulo_lab1/Tomasulo_TopLevel/CDB_module.sym 

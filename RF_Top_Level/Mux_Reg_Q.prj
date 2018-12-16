@@ -1,0 +1,2 @@
+vhdl work "../Q_Match_Module/my_Package_Vector.vhd"
+vhdl work "../Mux_Reg_Q/Mux_Reg_Q.vhd"

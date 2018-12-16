@@ -1,0 +1,80 @@
+Release 14.7 - xst P.20160913 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/ise/XilinxShareVm/Tomasulo_lab1/A_L_RS_Module/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.02 secs
+ 
+--> 
+Parameter xsthdpdir set to /home/ise/XilinxShareVm/Tomasulo_lab1/A_L_RS_Module/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.02 secs
+ 
+--> 
+Reading design: A_L_RS_Module.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station/Reservation_Station.vhd" into library work
+Parsing entity <Reservation_Station>.
+Parsing architecture <Behavioral> of entity <reservation_station>.
+Parsing VHDL file "/home/ise/XilinxShareVm/Tomasulo_lab1/Mux_2x1_5b/Mux_2x1_5b.vhd" into library work
+Parsing entity <Mux_2x1_5b>.
+Parsing architecture <Behavioral> of entity <mux_2x1_5b>.
+Parsing VHDL file "/home/ise/XilinxShareVm/Tomasulo_lab1/Mux_2x1_32b/Mux_2x1_32b.vhd" into library work
+Parsing entity <Mux_2x1_32b>.
+Parsing architecture <Behavioral> of entity <mux_2x1_32b>.
+Parsing VHDL file "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.vhd" into library work
+Parsing entity <Reservation_Station_Top_Level>.
+Parsing architecture <Behavioral> of entity <reservation_station_top_level>.
+WARNING:HDLCompiler:946 - "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.vhd" Line 79: Actual for formal port wren_qj is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.vhd" Line 80: Actual for formal port wren_qk is neither a static name nor a globally static expression
+Parsing VHDL file "/home/ise/XilinxShareVm/Tomasulo_lab1/A_L_RS_Module/A_L_RS_Module.vhd" into library work
+Parsing entity <A_L_RS_Module>.
+Parsing architecture <Behavioral> of entity <a_l_rs_module>.
+WARNING:HDLCompiler:946 - "/home/ise/XilinxShareVm/Tomasulo_lab1/A_L_RS_Module/A_L_RS_Module.vhd" Line 101: Actual for formal port reset is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/ise/XilinxShareVm/Tomasulo_lab1/A_L_RS_Module/A_L_RS_Module.vhd" Line 122: Actual for formal port reset is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/ise/XilinxShareVm/Tomasulo_lab1/A_L_RS_Module/A_L_RS_Module.vhd" Line 143: Actual for formal port reset is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/ise/XilinxShareVm/Tomasulo_lab1/A_L_RS_Module/A_L_RS_Module.vhd" Line 164: Actual for formal port reset is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "/home/ise/XilinxShareVm/Tomasulo_lab1/A_L_RS_Module/A_L_RS_Module.vhd" Line 185: Actual for formal port reset is neither a static name nor a globally static expression
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 2.14 secs
+ 
+--> 
+
+
+Total memory usage is 396256 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    7 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

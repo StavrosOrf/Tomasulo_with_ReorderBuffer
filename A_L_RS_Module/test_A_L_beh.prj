@@ -1,0 +1,6 @@
+vhdl work "../Reservation_Station/Reservation_Station.vhd"
+vhdl work "../Mux_2x1_5b/Mux_2x1_5b.vhd"
+vhdl work "../Mux_2x1_32b/Mux_2x1_32b.vhd"
+vhdl work "../Reservation_Station_Top_Level/Reservation_Station_Top_Level.vhd"
+vhdl work "A_L_RS_Module.vhd"
+vhdl work "test_A_L.vhd"

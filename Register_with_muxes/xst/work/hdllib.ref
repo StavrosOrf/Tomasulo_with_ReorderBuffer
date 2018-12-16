@@ -1,0 +1,8 @@
+AR mux_2x1 behavioral D:/xilinx/lab_5/Mux_2x1/Mux_2x1.vhd sub00/vhpl01 1525719340
+AR register1 behavioral D:/xilinx/lab_5/Register/Register.vhd sub00/vhpl05 1525719344
+EN mux_2x1_32b NULL D:/xilinx/lab_5/Mux_2x1_32b/Mux_2x1_32b.vhd sub00/vhpl02 1525719341
+AR register_with_muxes behavioral D:/xilinx/lab_5/Register_with_muxes/Register_with_muxes.vhd sub00/vhpl07 1525719346
+EN register1 NULL D:/xilinx/lab_5/Register/Register.vhd sub00/vhpl04 1525719343
+AR mux_2x1_32b behavioral D:/xilinx/lab_5/Mux_2x1_32b/Mux_2x1_32b.vhd sub00/vhpl03 1525719342
+EN register_with_muxes NULL D:/xilinx/lab_5/Register_with_muxes/Register_with_muxes.vhd sub00/vhpl06 1525719345
+EN mux_2x1 NULL D:/xilinx/lab_5/Mux_2x1/Mux_2x1.vhd sub00/vhpl00 1525719339

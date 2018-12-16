@@ -1,0 +1,6 @@
+vhdl isim_temp "../Reservation_Station/Reservation_Station.vhd"
+vhdl isim_temp "../Mux_2x1_5b/Mux_2x1_5b.vhd"
+vhdl isim_temp "../Mux_2x1_32b/Mux_2x1_32b.vhd"
+vhdl isim_temp "../Reservation_Station_Top_Level/Reservation_Station_Top_Level.vhd"
+vhdl isim_temp "A_L_RS_Module.vhd"
+vhdl isim_temp "test_A_L.vhd"

@@ -1,0 +1,4 @@
+vhdl work "../Register/Register.vhd"
+vhdl work "../Mux_2x1_32b/Mux_2x1_32b.vhd"
+vhdl work "../Mux_2x1/Mux_2x1.vhd"
+vhdl work "Register_with_muxes.vhd"

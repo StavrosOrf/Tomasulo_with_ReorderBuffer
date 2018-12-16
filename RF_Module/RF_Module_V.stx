@@ -1,0 +1,58 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/Xillinx_Projects/Tomasulo_lab1/RF_Module/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to D:/Xillinx_Projects/Tomasulo_lab1/RF_Module/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Xillinx_Projects/Tomasulo_lab1/RF_Module/my_Package_Vector.vhd" in Library work.
+Package <my_Package_Vector> compiled.
+Compiling vhdl file "D:/Xillinx_Projects/Tomasulo_lab1/Mux_2x1/Mux_2x1.vhd" in Library work.
+Entity <Mux_2x1> compiled.
+Entity <Mux_2x1> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "D:/Xillinx_Projects/Tomasulo_lab1/Mux_2x1_32b/Mux_2x1_32b.vhd" in Library work.
+Entity <Mux_2x1_32b> compiled.
+Entity <Mux_2x1_32b> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "D:/Xillinx_Projects/Tomasulo_lab1/Register/Register.vhd" in Library work.
+Entity <Register1> compiled.
+Entity <Register1> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "D:/Xillinx_Projects/Tomasulo_lab1/Decoder/Decoder.vhd" in Library work.
+Entity <Decoder> compiled.
+Entity <Decoder> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "D:/Xillinx_Projects/Tomasulo_lab1/Register_with_muxes/Register_with_muxes.vhd" in Library work.
+Entity <Register_with_muxes> compiled.
+Entity <Register_with_muxes> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "D:/Xillinx_Projects/Tomasulo_lab1/Mux_Reg/Mux_Reg.vhd" in Library work.
+Entity <Mux_Reg> compiled.
+Entity <Mux_Reg> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "D:/Xillinx_Projects/Tomasulo_lab1/Compare_Module/Compare_Module.vhd" in Library work.
+Entity <Compare_Module> compiled.
+Entity <Compare_Module> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "D:/Xillinx_Projects/Tomasulo_lab1/RF_Module/RF_Module.vhd" in Library work.
+Entity <RF_Module_V> compiled.
+Entity <RF_Module_V> (Architecture <Behavioral>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.34 secs
+ 
+--> 
+
+Total memory usage is 4498328 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

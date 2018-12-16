@@ -1,0 +1,27 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o D:/Xillinx_Projects/Tomasulo_lab1/Reservation_Station_Top_Level/test_Rs_top_level_isim_beh.exe -prj D:/Xillinx_Projects/Tomasulo_lab1/Reservation_Station_Top_Level/test_Rs_top_level_beh.prj work.test_Rs_top_level 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/Reservation_Station_Top_Level/../Reservation_Station/Reservation_Station.vhd" into library work
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/Reservation_Station_Top_Level/../Mux_2x1_5b/Mux_2x1_5b.vhd" into library work
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/Reservation_Station_Top_Level/../Mux_2x1_32b/Mux_2x1_32b.vhd" into library work
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.vhd" into library work
+WARNING:HDLCompiler:946 - "D:/Xillinx_Projects/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.vhd" Line 79: Actual for formal port wren_qj is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/Xillinx_Projects/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.vhd" Line 80: Actual for formal port wren_qk is neither a static name nor a globally static expression
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/Reservation_Station_Top_Level/test_Rs_top_level.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity Reservation_Station [reservation_station_default]
+Compiling architecture behavioral of entity Mux_2x1_32b [mux_2x1_32b_default]
+Compiling architecture behavioral of entity Mux_2x1_5b [mux_2x1_5b_default]
+Compiling architecture behavioral of entity Reservation_Station_Top_Level [reservation_station_top_level_de...]
+Compiling architecture behavior of entity test_rs_top_level
+Time Resolution for simulation is 1ps.
+Compiled 12 VHDL Units
+Built simulation executable D:/Xillinx_Projects/Tomasulo_lab1/Reservation_Station_Top_Level/test_Rs_top_level_isim_beh.exe
+Fuse Memory Usage: 35388 KB
+Fuse CPU Usage: 483 ms

@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.xst" -ofn "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.syr" 
+xst -intstyle ise -ifn "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.xst" -ofn "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.syr" 
+xst -intstyle ise -ifn "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.xst" -ofn "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.syr" 
+xst -intstyle ise -ifn "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.xst" -ofn "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.syr" 

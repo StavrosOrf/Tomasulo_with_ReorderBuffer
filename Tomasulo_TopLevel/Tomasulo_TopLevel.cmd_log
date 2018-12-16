@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Vasilis/Downloads/Tomasulo_with_ROB/Tomasulo_TopLevel/Tomasulo_TopLevel.xst" -ofn "C:/Users/Vasilis/Downloads/Tomasulo_with_ROB/Tomasulo_TopLevel/Tomasulo_TopLevel.syr" 

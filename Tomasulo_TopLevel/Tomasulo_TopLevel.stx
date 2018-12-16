@@ -1,0 +1,167 @@
+Release 14.7 - xst P.20160913 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.01 secs
+ 
+--> 
+Parameter xsthdpdir set to /home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.01 secs
+ 
+--> 
+Reading design: Tomasulo_TopLevel.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/RF_Top_Level/my_Package_VectorV.vhd" into library work
+Parsing package <my_Package_VectorV>.
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/RF_Module/my_Package_Vector.vhd" into library work
+Parsing package <my_Package_Vector>.
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Register_Q/Register_Q.vhd" into library work
+Parsing entity <Register_Q>.
+Parsing architecture <Behavioral> of entity <register_q>.
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Register/Register.vhd" into library work
+Parsing entity <Register1>.
+Parsing architecture <Behavioral> of entity <register1>.
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Mux_2x1_Q/Mux_2x1_Q.vhd" into library work
+Parsing entity <Mux_2x1_Q>.
+Parsing architecture <Behavioral> of entity <mux_2x1_q>.
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Mux_2x1_5b/Mux_2x1_5b.vhd" into library work
+Parsing entity <Mux_2x1_5b>.
+Parsing architecture <Behavioral> of entity <mux_2x1_5b>.
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Mux_2x1_32b/Mux_2x1_32b.vhd" into library work
+Parsing entity <Mux_2x1_32b>.
+Parsing architecture <Behavioral> of entity <mux_2x1_32b>.
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Mux_2x1/Mux_2x1.vhd" into library work
+Parsing entity <Mux_2x1>.
+Parsing architecture <Behavioral> of entity <mux_2x1>.
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Reservation_Station/Reservation_Station.vhd" into library work
+Parsing entity <Reservation_Station>.
+Parsing architecture <Behavioral> of entity <reservation_station>.
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Register_with_muxes_Q/Register_with_muxes_Q.vhd" into library work
+Parsing entity <Register_with_muxes_Q>.
+Parsing architecture <Behavioral> of entity <register_with_muxes_q>.
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Register_with_muxes/Register_with_muxes.vhd" into library work
+Parsing entity <Register_with_muxes>.
+Parsing architecture <Behavioral> of entity <register_with_muxes>.
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Mux_Reg_Q/Mux_Reg_Q.vhd" into library work
+Parsing entity <Mux_Reg_Q>.
+Parsing architecture <Behavioral> of entity <mux_reg_q>.
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Mux_Reg/Mux_Reg.vhd" into library work
+Parsing entity <Mux_Reg>.
+Parsing architecture <Behavioral> of entity <mux_reg>.
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Decoder/Decoder.vhd" into library work
+Parsing entity <Decoder>.
+Parsing architecture <Behavioral> of entity <decoder>.
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Compare_Module/Compare_Module.vhd" into library work
+Parsing entity <Compare_Module>.
+Parsing architecture <Behavioral> of entity <compare_module>.
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/RF_Q_Module/RF_Q_Module.vhd" into library work
+Parsing entity <RF_Module_Q>.
+Parsing architecture <Behavioral> of entity <rf_module_q>.
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/RF_Module/RF_Module.vhd" into library work
+Parsing entity <RF_Module_V>.
+Parsing architecture <Behavioral> of entity <rf_module_v>.
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Reservation_Station_Top_Level/Reservation_Station_Top_Level.vhd" into library work
+Parsing entity <Reservation_Station_Top_Level>.
+Parsing architecture <Behavioral> of entity <reservation_station_top_level>.
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Reorder_Buffer/my_package_vector_rob.vhd" into library work
+Parsing package <my_package_vector_rob>.
+Parsing package body <my_package_vector_rob>.
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Register_FU/Register_FU.vhd" into library work
+Parsing entity <Register_FU>.
+Parsing architecture <Behavioral> of entity <register_fu>.
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Q_Match_Module/Q_Match_Module.vhd" into library work
+Parsing entity <Q_Match_Module>.
+Parsing architecture <Behavioral> of entity <q_match_module>.
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Mux_4_1_32b/Mux_4_1_32b.vhd" into library work
+Parsing entity <Mux_4_1_32b>.
+Parsing architecture <Behavioral> of entity <mux_4_1_32b>.
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Mux_4x1_5b/Mux_4x1_5b.vhd" into library work
+Parsing entity <Mux_4x1_5b>.
+Parsing architecture <Behavioral> of entity <mux_4x1_5b>.
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Mux_3x1_2b/Mux_3x1_2b.vhd" into library work
+Parsing entity <Mux_3x1_2b>.
+Parsing architecture <Behavioral> of entity <mux_3x1_2b>.
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Mux_2x1_2b/Mux_2x1_2b.vhd" into library work
+Parsing entity <Mux_2x1_2b>.
+Parsing architecture <Behavioral> of entity <mux_2x1_2b>.
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/L_ALU/L_ALU.vhd" into library work
+Parsing entity <L_ALU>.
+Parsing architecture <Behavioral> of entity <l_alu>.
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Counter_Module/Counter_Module.vhd" into library work
+Parsing entity <Counter_Module>.
+Parsing architecture <Behavioral> of entity <counter_module>.
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/A_ALU/A_ALU.vhd" into library work
+Parsing entity <A_ALU>.
+Parsing architecture <Behavioral> of entity <a_alu>.
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/counter_standard.vhd" into library work
+Parsing entity <counter_standard>.
+Parsing architecture <Behavioral> of entity <counter_standard>.
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/RF_Top_Level/RF_Top_Level.vhd" into library work
+Parsing entity <RF_Top_Level>.
+Parsing architecture <Behavioral> of entity <rf_top_level>.
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Reorder_Buffer/Reorder_Buffer.vhd" into library work
+Parsing entity <Reorder_Buffer>.
+Parsing architecture <Behavioral> of entity <reorder_buffer>.
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Issue_Module/Issue_Module.vhd" into library work
+Parsing entity <Issue_Module>.
+Parsing architecture <Behavioral> of entity <issue_module>.
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/FU_Logical_Top_Level/FU_Logical_Top_Level.vhd" into library work
+Parsing entity <FU_Logical_Top_Level>.
+Parsing architecture <Behavioral> of entity <fu_logical_top_level>.
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/FU_Arithmetic_Top_Level/FU_Arithmetic_Top_Level.vhd" into library work
+Parsing entity <FU_Arithmetic_Top_Level>.
+Parsing architecture <Behavioral> of entity <fu_arithmetic_top_level>.
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/CDB_module/CDB_module.vhd" into library work
+Parsing entity <CDB_module>.
+Parsing architecture <Behavioral> of entity <cdb_module>.
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/A_L_RS_Module/A_L_RS_Module.vhd" into library work
+Parsing entity <A_L_RS_Module>.
+Parsing architecture <Behavioral> of entity <a_l_rs_module>.
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/Tomasulo_TopLevel.vhd" into library work
+Parsing entity <Tomasulo_TopLevel>.
+Parsing architecture <Behavioral> of entity <tomasulo_toplevel>.
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 2.37 secs
+ 
+--> 
+
+
+Total memory usage is 302216 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

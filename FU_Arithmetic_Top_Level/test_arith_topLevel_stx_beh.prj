@@ -1,0 +1,5 @@
+vhdl isim_temp "../Register_FU/Register_FU.vhd"
+vhdl isim_temp "../A_ALU/A_ALU.vhd"
+vhdl isim_temp "../Arithmetic_Control/Arithmetic_Control.vhd"
+vhdl isim_temp "FU_Arithmetic_Top_Level.vhd"
+vhdl isim_temp "test_arith_topLevel.vhd"

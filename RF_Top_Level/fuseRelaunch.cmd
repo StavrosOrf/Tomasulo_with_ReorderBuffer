@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/Xillinx_Projects/Tomasulo_lab1/RF_Top_Level/test_rf_isim_beh.exe" -prj "D:/Xillinx_Projects/Tomasulo_lab1/RF_Top_Level/test_rf_beh.prj" "work.test_rf" 

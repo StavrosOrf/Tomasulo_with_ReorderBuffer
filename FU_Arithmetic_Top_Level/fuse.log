@@ -1,0 +1,32 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o D:/Xillinx_Projects/Tomasulo_lab1/FU_Arithmetic_Top_Level/test_topLevel_isim_beh.exe -prj D:/Xillinx_Projects/Tomasulo_lab1/FU_Arithmetic_Top_Level/test_topLevel_beh.prj work.test_topLevel 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/FU_Arithmetic_Top_Level/../Register_FU/Register_FU.vhd" into library work
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/FU_Arithmetic_Top_Level/../Mux_4_1_32b/Mux_4_1_32b.vhd" into library work
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/FU_Arithmetic_Top_Level/../Mux_4x1_5b/Mux_4x1_5b.vhd" into library work
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/FU_Arithmetic_Top_Level/../Mux_3x1_2b/Mux_3x1_2b.vhd" into library work
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/FU_Arithmetic_Top_Level/../A_ALU/A_ALU.vhd" into library work
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/FU_Arithmetic_Top_Level/FU_Arithmetic_Top_Level.vhd" into library work
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/FU_Arithmetic_Top_Level/test_topLevel.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity Mux_4_1_32b [mux_4_1_32b_default]
+Compiling architecture behavioral of entity Mux_4x1_5b [mux_4x1_5b_default]
+Compiling architecture behavioral of entity Mux_3x1_2b [mux_3x1_2b_default]
+Compiling architecture behavioral of entity A_ALU [a_alu_default]
+Compiling architecture behavioral of entity Register_FU [register_fu_default]
+Compiling architecture behavioral of entity FU_Arithmetic_Top_Level [fu_arithmetic_top_level_default]
+Compiling architecture behavior of entity test_toplevel
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 18 VHDL Units
+Built simulation executable D:/Xillinx_Projects/Tomasulo_lab1/FU_Arithmetic_Top_Level/test_topLevel_isim_beh.exe
+Fuse Memory Usage: 36812 KB
+Fuse CPU Usage: 765 ms

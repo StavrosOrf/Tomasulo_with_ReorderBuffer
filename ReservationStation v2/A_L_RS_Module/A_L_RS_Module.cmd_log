@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/XilinxShareVm/Tomasulo_lab1/A_L_RS_Module/A_L_RS_Module.xst" -ofn "/home/ise/XilinxShareVm/Tomasulo_lab1/A_L_RS_Module/A_L_RS_Module.syr" 

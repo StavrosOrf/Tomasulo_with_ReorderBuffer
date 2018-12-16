@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/XilinxShareVm/Tomasulo_lab1/A_L_RS_Module/A_L_RS_Module_isim_beh.exe" -prj "/home/ise/XilinxShareVm/Tomasulo_lab1/A_L_RS_Module/A_L_RS_Module_beh.prj" "work.A_L_RS_Module" 

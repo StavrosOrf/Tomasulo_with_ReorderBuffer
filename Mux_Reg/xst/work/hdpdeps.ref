@@ -1,0 +1,10 @@
+V3 5
+FL D:/xilinx/lab_5/Mux_Reg/Mux_Reg.vhd 2018/05/07.22:03:09 O.87xd
+EN work/Mux_Reg 1525719794 FL D:/xilinx/lab_5/Mux_Reg/Mux_Reg.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/NUMERIC_STD 1325952877 \
+      PH work/my_Package_Vector 1525719793
+AR work/Mux_Reg/Behavioral 1525719795 \
+      FL D:/xilinx/lab_5/Mux_Reg/Mux_Reg.vhd EN work/Mux_Reg 1525719794
+FL D:/xilinx/lab_5/Mux_Reg/my_Package_Vector.vhd 2018/05/07.22:02:30 O.87xd
+PH work/my_Package_Vector 1525719793 \
+      FL D:/xilinx/lab_5/Mux_Reg/my_Package_Vector.vhd PB ieee/std_logic_1164 1325952872

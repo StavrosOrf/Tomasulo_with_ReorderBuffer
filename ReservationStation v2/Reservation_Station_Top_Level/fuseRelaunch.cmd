@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/test_Rs_top_level_isim_beh.exe" -prj "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/test_Rs_top_level_beh.prj" "work.test_Rs_top_level" 

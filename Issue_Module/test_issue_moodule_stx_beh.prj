@@ -1,0 +1,2 @@
+vhdl isim_temp "Issue_Module.vhd"
+vhdl isim_temp "test_issue_moodule.vhd"

@@ -1,0 +1,24 @@
+V3 15
+FL D:/xilinx/lab_5/Mux_2x1/Mux_2x1.vhd 2018/05/07.21:48:01 O.87xd
+EN work/Mux_2x1 1525719339 FL D:/xilinx/lab_5/Mux_2x1/Mux_2x1.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/Mux_2x1/Behavioral 1525719340 \
+      FL D:/xilinx/lab_5/Mux_2x1/Mux_2x1.vhd EN work/Mux_2x1 1525719339
+FL D:/xilinx/lab_5/Mux_2x1_32b/Mux_2x1_32b.vhd 2018/05/07.21:21:44 O.87xd
+EN work/Mux_2x1_32b 1525719341 FL D:/xilinx/lab_5/Mux_2x1_32b/Mux_2x1_32b.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/Mux_2x1_32b/Behavioral 1525719342 \
+      FL D:/xilinx/lab_5/Mux_2x1_32b/Mux_2x1_32b.vhd EN work/Mux_2x1_32b 1525719341
+FL D:/xilinx/lab_5/Register/Register.vhd 2018/05/07.21:42:46 O.87xd
+EN work/Register1 1525719343 FL D:/xilinx/lab_5/Register/Register.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/Register1/Behavioral 1525719344 \
+      FL D:/xilinx/lab_5/Register/Register.vhd EN work/Register1 1525719343
+FL D:/xilinx/lab_5/Register_with_muxes/Register_with_muxes.vhd 2018/05/07.21:55:03 O.87xd
+EN work/Register_with_muxes 1525719345 \
+      FL D:/xilinx/lab_5/Register_with_muxes/Register_with_muxes.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/Register_with_muxes/Behavioral 1525719346 \
+      FL D:/xilinx/lab_5/Register_with_muxes/Register_with_muxes.vhd \
+      EN work/Register_with_muxes 1525719345 CP work/Mux_2x1 CP work/Mux_2x1_32b \
+      CP work/Register1

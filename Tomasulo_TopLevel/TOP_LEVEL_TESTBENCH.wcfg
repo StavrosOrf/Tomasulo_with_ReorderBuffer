@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/Xillinx projects/Tomasulo_lab1v2. 3/v2/Tomasulo_lab1/Tomasulo_TopLevel/test_isim_beh1.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="my_package_vector" />
+            <top_module name="my_package_vector_rob" />
+            <top_module name="my_package_vectorv" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="35" />
+   <wvobject fp_name="/test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/issue" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">issue</obj_property>
+      <obj_property name="ObjectShortName">issue</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/accepted" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">accepted</obj_property>
+      <obj_property name="ObjectShortName">accepted</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/rk" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rk[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rk[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/rj" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rj[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rj[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/ri" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ri[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ri[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/fop" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fop[1:0]</obj_property>
+      <obj_property name="ObjectShortName">fop[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/fu_type" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fu_type[1:0]</obj_property>
+      <obj_property name="ObjectShortName">fu_type[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_ReservationStations/bl2" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">bl2</obj_property>
+      <obj_property name="ObjectShortName">bl2</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+      <obj_property name="label">bl2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_ReservationStations/bl1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">bl1</obj_property>
+      <obj_property name="ObjectShortName">bl1</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_ReservationStations/ba3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ba3</obj_property>
+      <obj_property name="ObjectShortName">ba3</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_ReservationStations/ba2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ba2</obj_property>
+      <obj_property name="ObjectShortName">ba2</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_ReservationStations/ba1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ba1</obj_property>
+      <obj_property name="ObjectShortName">ba1</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_CDB/r_a" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">r_a</obj_property>
+      <obj_property name="ObjectShortName">r_a</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_CDB/r_log" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">r_log</obj_property>
+      <obj_property name="ObjectShortName">r_log</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_CDB/g_a" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">g_a</obj_property>
+      <obj_property name="ObjectShortName">g_a</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#6068ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_CDB/g_log" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">g_log</obj_property>
+      <obj_property name="ObjectShortName">g_log</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#6068ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_ReservationStations/Inst_L1_Rs/qj_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">qj_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">qj_out[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_ReservationStations/Inst_L1_Rs/qk_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">qk_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">qk_out[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_ReservationStations/Inst_L1_Rs/vk_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">vk_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">vk_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_ReservationStations/Inst_L1_Rs/vj_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">vj_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">vj_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_Reorder_Buffer/issue_input" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">issue_input</obj_property>
+      <obj_property name="ObjectShortName">issue_input</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_Reorder_Buffer/issue_pointer_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">issue_pointer_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">issue_pointer_out[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_Reorder_Buffer/commit_pointer_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">commit_pointer_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">commit_pointer_out[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_Reorder_Buffer/rd_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rd_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_out[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_Reorder_Buffer/commit_pointer" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">commit_pointer[4:0]</obj_property>
+      <obj_property name="ObjectShortName">commit_pointer[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_Reorder_Buffer/issue_pointer" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">issue_pointer[4:0]</obj_property>
+      <obj_property name="ObjectShortName">issue_pointer[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_CDB/cdb_q" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cdb_q[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cdb_q[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_CDB/cdb_v" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cdb_v[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cdb_v[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_Reorder_Buffer/value_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">value_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">value_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_Reorder_Buffer/rob_in_issue" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rob_in_issue[69:0]</obj_property>
+      <obj_property name="ObjectShortName">rob_in_issue[69:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_Reorder_Buffer/rob_in_cdb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rob_in_cdb[69:0]</obj_property>
+      <obj_property name="ObjectShortName">rob_in_cdb[69:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_Reorder_Buffer/ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="group33" type="group">
+      <obj_property name="label">RF Q</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/write_data" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">write_data[4:0]</obj_property>
+         <obj_property name="ObjectShortName">write_data[4:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/write_register" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">write_register[4:0]</obj_property>
+         <obj_property name="ObjectShortName">write_register[4:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/rf_wren" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rf_wren</obj_property>
+         <obj_property name="ObjectShortName">rf_wren</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/rf_q_out" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">rf_q_out[0:31]</obj_property>
+         <obj_property name="ObjectShortName">rf_q_out[0:31]</obj_property>
+         <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/rf_q_out[0]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[0]</obj_property>
+            <obj_property name="ObjectShortName">rf_q_out[0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/rf_q_out[1]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[1]</obj_property>
+            <obj_property name="ObjectShortName">rf_q_out[1]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/rf_q_out[2]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[2]</obj_property>
+            <obj_property name="ObjectShortName">rf_q_out[2]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/rf_q_out[3]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[3]</obj_property>
+            <obj_property name="ObjectShortName">rf_q_out[3]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/rf_q_out[4]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[4]</obj_property>
+            <obj_property name="ObjectShortName">rf_q_out[4]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/rf_q_out[5]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[5]</obj_property>
+            <obj_property name="ObjectShortName">rf_q_out[5]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/rf_q_out[6]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[6]</obj_property>
+            <obj_property name="ObjectShortName">rf_q_out[6]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/rf_q_out[7]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[7]</obj_property>
+            <obj_property name="ObjectShortName">rf_q_out[7]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/rf_q_out[8]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[8]</obj_property>
+            <obj_property name="ObjectShortName">rf_q_out[8]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/rf_q_out[9]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[9]</obj_property>
+            <obj_property name="ObjectShortName">rf_q_out[9]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/rf_q_out[10]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[10]</obj_property>
+            <obj_property name="ObjectShortName">rf_q_out[10]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/rf_q_out[11]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[11]</obj_property>
+            <obj_property name="ObjectShortName">rf_q_out[11]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/rf_q_out[12]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[12]</obj_property>
+            <obj_property name="ObjectShortName">rf_q_out[12]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/rf_q_out[13]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[13]</obj_property>
+            <obj_property name="ObjectShortName">rf_q_out[13]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/rf_q_out[14]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[14]</obj_property>
+            <obj_property name="ObjectShortName">rf_q_out[14]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/rf_q_out[15]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[15]</obj_property>
+            <obj_property name="ObjectShortName">rf_q_out[15]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/rf_q_out[16]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[16]</obj_property>
+            <obj_property name="ObjectShortName">rf_q_out[16]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/rf_q_out[17]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[17]</obj_property>
+            <obj_property name="ObjectShortName">rf_q_out[17]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/rf_q_out[18]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[18]</obj_property>
+            <obj_property name="ObjectShortName">rf_q_out[18]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/rf_q_out[19]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[19]</obj_property>
+            <obj_property name="ObjectShortName">rf_q_out[19]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/rf_q_out[20]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[20]</obj_property>
+            <obj_property name="ObjectShortName">rf_q_out[20]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/rf_q_out[21]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[21]</obj_property>
+            <obj_property name="ObjectShortName">rf_q_out[21]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/rf_q_out[22]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[22]</obj_property>
+            <obj_property name="ObjectShortName">rf_q_out[22]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/rf_q_out[23]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[23]</obj_property>
+            <obj_property name="ObjectShortName">rf_q_out[23]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/rf_q_out[24]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[24]</obj_property>
+            <obj_property name="ObjectShortName">rf_q_out[24]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/rf_q_out[25]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[25]</obj_property>
+            <obj_property name="ObjectShortName">rf_q_out[25]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/rf_q_out[26]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[26]</obj_property>
+            <obj_property name="ObjectShortName">rf_q_out[26]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/rf_q_out[27]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[27]</obj_property>
+            <obj_property name="ObjectShortName">rf_q_out[27]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/rf_q_out[28]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[28]</obj_property>
+            <obj_property name="ObjectShortName">rf_q_out[28]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/rf_q_out[29]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[29]</obj_property>
+            <obj_property name="ObjectShortName">rf_q_out[29]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/rf_q_out[30]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[30]</obj_property>
+            <obj_property name="ObjectShortName">rf_q_out[30]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/rf_q_out[31]" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">[31]</obj_property>
+            <obj_property name="ObjectShortName">rf_q_out[31]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group28" type="group">
+      <obj_property name="label">RF_V</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/test/uut/Inst_RF/Inst_RFV/write_data" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">write_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/uut/Inst_RF/Inst_RFV/write_register" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">write_register[4:0]</obj_property>
+         <obj_property name="ObjectShortName">write_register[4:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/uut/Inst_RF/Inst_RFV/rf_wren" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rf_wren</obj_property>
+         <obj_property name="ObjectShortName">rf_wren</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/uut/Inst_Reorder_Buffer/ram" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">ram[0:31]</obj_property>
+         <obj_property name="ObjectShortName">ram[0:31]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

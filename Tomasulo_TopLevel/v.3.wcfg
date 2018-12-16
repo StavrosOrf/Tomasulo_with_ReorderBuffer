@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ise/XilinxShareVm/v.4/Tomasulo_lab1v2. 4/v2/Tomasulo_lab1/Tomasulo_TopLevel/test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="my_package_vector" />
+            <top_module name="my_package_vector_rob" />
+            <top_module name="my_package_vectorv" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="25" />
+   <wvobject fp_name="/test/issue" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">issue</obj_property>
+      <obj_property name="ObjectShortName">issue</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_Reorder_Buffer/accepted" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">accepted</obj_property>
+      <obj_property name="ObjectShortName">accepted</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/fu_type" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fu_type[1:0]</obj_property>
+      <obj_property name="ObjectShortName">fu_type[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/fop" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fop[1:0]</obj_property>
+      <obj_property name="ObjectShortName">fop[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/ri" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ri[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ri[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/rj" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rj[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rj[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/rk" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rk[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rk[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/accepted" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">accepted</obj_property>
+      <obj_property name="ObjectShortName">accepted</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_ReservationStations/bl2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">bl2</obj_property>
+      <obj_property name="ObjectShortName">bl2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_ReservationStations/bl1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">bl1</obj_property>
+      <obj_property name="ObjectShortName">bl1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_ReservationStations/ba3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ba3</obj_property>
+      <obj_property name="ObjectShortName">ba3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_ReservationStations/ba2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ba2</obj_property>
+      <obj_property name="ObjectShortName">ba2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_ReservationStations/ba1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ba1</obj_property>
+      <obj_property name="ObjectShortName">ba1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_RF/Inst_RFV/write_register" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">write_register[4:0]</obj_property>
+      <obj_property name="ObjectShortName">write_register[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_RF/Inst_RFV/write_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_RF/Inst_RFV/rf_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_wren</obj_property>
+      <obj_property name="ObjectShortName">rf_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_Reorder_Buffer/rd_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rd_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_Reorder_Buffer/value_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">value_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">value_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_Reorder_Buffer/tag_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tag_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">tag_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_Reorder_Buffer/pc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group70" type="group">
+      <obj_property name="label">RF_V</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/test/uut/Inst_RF/Inst_RFV/write_data" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">write_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/uut/Inst_RF/Inst_RFV/write_register" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">write_register[4:0]</obj_property>
+         <obj_property name="ObjectShortName">write_register[4:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/uut/Inst_RF/Inst_RFV/rf_wren" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rf_wren</obj_property>
+         <obj_property name="ObjectShortName">rf_wren</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group66" type="group">
+      <obj_property name="label">RFQ</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/write_register" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">write_register[4:0]</obj_property>
+         <obj_property name="ObjectShortName">write_register[4:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/reset_register" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">reset_register[4:0]</obj_property>
+         <obj_property name="ObjectShortName">reset_register[4:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/write_data" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">write_data[4:0]</obj_property>
+         <obj_property name="ObjectShortName">write_data[4:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test/uut/Inst_RF/Inst_RFQ/rf_wren" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rf_wren</obj_property>
+         <obj_property name="ObjectShortName">rf_wren</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/test/uut/Inst_Reorder_Buffer/ram" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram[0:31]</obj_property>
+      <obj_property name="ObjectShortName">ram[0:31]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,38 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "secureip" -o "D:/Xillinx_Projects/Tomasulo_lab1/RF_Q_Module/test_RF_Q_isim_beh.exe" -prj "D:/Xillinx_Projects/Tomasulo_lab1/RF_Q_Module/test_RF_Q_beh.prj" "work.test_RF_Q" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/RF_Q_Module/my_Package_Vector.vhd" into library work
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/RF_Q_Module/../Register_Q/Register_Q.vhd" into library work
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/RF_Q_Module/../Mux_2x1_Q/Mux_2x1_Q.vhd" into library work
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/RF_Q_Module/../Mux_2x1_5b/Mux_2x1_5b.vhd" into library work
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/RF_Q_Module/../Register_with_muxes_Q/Register_with_muxes_Q.vhd" into library work
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/RF_Q_Module/../Mux_Reg_Q/Mux_Reg_Q.vhd" into library work
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/RF_Q_Module/../Decoder/Decoder.vhd" into library work
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/RF_Q_Module/../Compare_Module/Compare_Module.vhd" into library work
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/RF_Q_Module/RF_Q_Module.vhd" into library work
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/RF_Q_Module/test_RF_Q.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package my_package_vector
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity Decoder [decoder_default]
+Compiling architecture behavioral of entity Mux_2x1_Q [mux_2x1_q_default]
+Compiling architecture behavioral of entity Mux_2x1_5b [mux_2x1_5b_default]
+Compiling architecture behavioral of entity Register_Q [register_q_default]
+Compiling architecture behavioral of entity Register_with_muxes_Q [register_with_muxes_q_default]
+Compiling architecture behavioral of entity Mux_Reg_Q [mux_reg_q_default]
+Compiling architecture behavioral of entity Compare_Module [compare_module_default]
+Compiling architecture behavioral of entity RF_Module_Q [rf_module_q_default]
+Compiling architecture behavior of entity test_rf_q
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 23 VHDL Units
+Built simulation executable D:/Xillinx_Projects/Tomasulo_lab1/RF_Q_Module/test_RF_Q_isim_beh.exe
+Fuse Memory Usage: 37064 KB
+Fuse CPU Usage: 515 ms

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/Xillinx projects/Tomasulo_lab1v2. 3/v2/Tomasulo_lab1/Reorder_Buffer/ieee_isim_beh.exe" -prj "E:/Xillinx projects/Tomasulo_lab1v2. 3/v2/Tomasulo_lab1/Reorder_Buffer/ieee_beh.prj" "work.ieee" 

@@ -1,0 +1,5 @@
+set -tmpdir "D:/xilinx/lab_5/Mux_2x1_32b/xst/projnav.tmp"
+set -xsthdpdir "D:/xilinx/lab_5/Mux_2x1_32b/xst"
+elaborate
+-ifn Mux_2x1_32b.prj
+-ifmt mixed

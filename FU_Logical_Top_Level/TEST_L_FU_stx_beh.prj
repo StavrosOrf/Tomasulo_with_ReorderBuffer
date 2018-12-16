@@ -1,0 +1,5 @@
+vhdl isim_temp "../Register_FU/Register_FU.vhd"
+vhdl isim_temp "../L_ALU/L_ALU.vhd"
+vhdl isim_temp "../Logical_Control_FU/Logical_Control_FU.vhd"
+vhdl isim_temp "FU_Logical_Top_Level.vhd"
+vhdl isim_temp "TEST_L_FU.vhd"

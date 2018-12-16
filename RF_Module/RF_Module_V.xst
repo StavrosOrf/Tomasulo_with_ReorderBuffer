@@ -1,0 +1,5 @@
+set -tmpdir "D:/Xillinx_Projects/Tomasulo_lab1/RF_Module/xst/projnav.tmp"
+set -xsthdpdir "D:/Xillinx_Projects/Tomasulo_lab1/RF_Module/xst"
+elaborate
+-ifn RF_Module_V.prj
+-ifmt mixed

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="FU_Logical_Top_Level.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FU_Logical_Top_Level.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="FU_Logical_Top_Level.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="FU_Logical_Top_Level.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="L_ALU.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="L_ALU.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="L_ALU.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Register_FU.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Register_FU.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Register_FU.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TEST_L_FU_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TEST_L_FU_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TEST_L_FU_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TEST_L_FU_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_lfu_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_lfu_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="test_lfu_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_lfu_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_topLevel_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_topLevel_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="test_topLevel_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_topLevel_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1540399977" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1540399977">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1540813242" xil_pn:in_ck="5977012248913744264" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1540813242">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="../L_ALU/L_ALU.vhd"/>
+      <outfile xil_pn:name="../Mux_2x1_2b/Mux_2x1_2b.vhd"/>
+      <outfile xil_pn:name="../Mux_2x1_32b/Mux_2x1_32b.vhd"/>
+      <outfile xil_pn:name="../Mux_2x1_5b/Mux_2x1_5b.vhd"/>
+      <outfile xil_pn:name="../Register_FU/Register_FU.vhd"/>
+      <outfile xil_pn:name="FU_Logical_Top_Level.vhd"/>
+      <outfile xil_pn:name="test_topLevel.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1540570363" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-1153860044181688512" xil_pn:start_ts="1540570363">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1540570363" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="8204181408401104158" xil_pn:start_ts="1540570363">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1540399167" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-8590736926655657209" xil_pn:start_ts="1540399167">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1540813246" xil_pn:in_ck="5977012248913744264" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1540813246">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="../L_ALU/L_ALU.vhd"/>
+      <outfile xil_pn:name="../Mux_2x1_2b/Mux_2x1_2b.vhd"/>
+      <outfile xil_pn:name="../Mux_2x1_32b/Mux_2x1_32b.vhd"/>
+      <outfile xil_pn:name="../Mux_2x1_5b/Mux_2x1_5b.vhd"/>
+      <outfile xil_pn:name="../Register_FU/Register_FU.vhd"/>
+      <outfile xil_pn:name="FU_Logical_Top_Level.vhd"/>
+      <outfile xil_pn:name="test_topLevel.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1540813250" xil_pn:in_ck="5977012248913744264" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="1396967505948999216" xil_pn:start_ts="1540813246">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="test_topLevel_beh.prj"/>
+      <outfile xil_pn:name="test_topLevel_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1540813250" xil_pn:in_ck="2782836487969998018" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="2352588288019287261" xil_pn:start_ts="1540813250">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="test_topLevel_isim_beh.wdb"/>
+    </transform>
+  </transforms>
+
+</generated_project>

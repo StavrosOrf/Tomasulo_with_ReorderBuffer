@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/Xillinx_Projects/Tomasulo_lab1/Q_Match_Module/Q_Match_Module.xst" -ofn "D:/Xillinx_Projects/Tomasulo_lab1/Q_Match_Module/Q_Match_Module.syr" 

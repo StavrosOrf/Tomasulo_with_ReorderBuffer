@@ -1,0 +1,6 @@
+vhdl work "../Register_FU/Register_FU.vhd"
+vhdl work "../Mux_4_1_32b/Mux_4_1_32b.vhd"
+vhdl work "../Mux_4x1_5b/Mux_4x1_5b.vhd"
+vhdl work "../Mux_3x1_2b/Mux_3x1_2b.vhd"
+vhdl work "../A_ALU/A_ALU.vhd"
+vhdl work "FU_Arithmetic_Top_Level.vhd"

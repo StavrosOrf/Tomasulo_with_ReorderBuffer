@@ -1,0 +1,29 @@
+Command line:
+   test_lfu_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  55494
+
+Wed Oct 24 20:17:23 2018
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5173.92 Meg
+
+ Total Signals          : 83
+ Total Nets             : 248
+ Total Signal Drivers   : 30
+ Total Blocks           : 7
+ Total Primitive Blocks : 5
+ Total Processes        : 10
+ Total Traceable Variables  : 9
+ Total Scalar Nets and Variables : 609
+Total Line Count : 115
+
+ Total Simulation Time: 0.234375 sec
+
+ Current Memory Usage: 5016.64 Meg
+
+Wed Oct 24 20:18:50 2018
+

@@ -1,0 +1,96 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/test_isim_beh.exe -prj /home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/test_beh.prj work.test 
+ISim P.20160913 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/../RF_Top_Level/my_Package_VectorV.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/../RF_Module/my_Package_Vector.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/../Register_Q/Register_Q.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/../Register/Register.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/../Mux_2x1_Q/Mux_2x1_Q.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/../Mux_2x1_5b/Mux_2x1_5b.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/../Mux_2x1_32b/Mux_2x1_32b.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/../Mux_2x1/Mux_2x1.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/../Reservation_Station/Reservation_Station.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/../Register_with_muxes_Q/Register_with_muxes_Q.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/../Register_with_muxes/Register_with_muxes.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/../Mux_Reg_Q/Mux_Reg_Q.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/../Mux_Reg/Mux_Reg.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/../Decoder/Decoder.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/../Compare_Module/Compare_Module.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/../RF_Q_Module/RF_Q_Module.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/../RF_Module/RF_Module.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/../Reservation_Station_Top_Level/Reservation_Station_Top_Level.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/../Reorder_Buffer/my_package_vector_rob.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/../Register_FU/Register_FU.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/../Q_Match_Module/Q_Match_Module.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/../Mux_4_1_32b/Mux_4_1_32b.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/../Mux_4x1_5b/Mux_4x1_5b.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/../Mux_3x1_2b/Mux_3x1_2b.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/../Mux_2x1_2b/Mux_2x1_2b.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/../L_ALU/L_ALU.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/../Counter_Module/Counter_Module.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/../A_ALU/A_ALU.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/counter_standard.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/../RF_Top_Level/RF_Top_Level.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/../Reorder_Buffer/Reorder_Buffer.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/../Issue_Module/Issue_Module.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/../FU_Logical_Top_Level/FU_Logical_Top_Level.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/../FU_Arithmetic_Top_Level/FU_Arithmetic_Top_Level.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/../CDB_module/CDB_module.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/../A_L_RS_Module/A_L_RS_Module.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/Tomasulo_TopLevel.vhd" into library work
+Parsing VHDL file "/home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/test.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 100912 KB
+Fuse CPU Usage: 780 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package my_package_vector
+Compiling package my_package_vectorv
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package my_package_vector_rob
+Compiling architecture behavioral of entity Counter_Module [counter_module_default]
+Compiling architecture behavioral of entity Reorder_Buffer [reorder_buffer_default]
+Compiling architecture behavioral of entity counter_standard [counter_standard_default]
+Compiling architecture behavioral of entity CDB_module [cdb_module_default]
+Compiling architecture behavioral of entity L_ALU [l_alu_default]
+Compiling architecture behavioral of entity Mux_2x1_2b [mux_2x1_2b_default]
+Compiling architecture behavioral of entity Mux_2x1_32b [mux_2x1_32b_default]
+Compiling architecture behavioral of entity Mux_2x1_5b [mux_2x1_5b_default]
+Compiling architecture behavioral of entity Register_FU [register_fu_default]
+Compiling architecture behavioral of entity FU_Logical_Top_Level [fu_logical_top_level_default]
+Compiling architecture behavioral of entity Mux_4_1_32b [mux_4_1_32b_default]
+Compiling architecture behavioral of entity Mux_4x1_5b [mux_4x1_5b_default]
+Compiling architecture behavioral of entity Mux_3x1_2b [mux_3x1_2b_default]
+Compiling architecture behavioral of entity A_ALU [a_alu_default]
+Compiling architecture behavioral of entity FU_Arithmetic_Top_Level [fu_arithmetic_top_level_default]
+Compiling architecture behavioral of entity Reservation_Station [reservation_station_default]
+Compiling architecture behavioral of entity Reservation_Station_Top_Level [reservation_station_top_level_de...]
+Compiling architecture behavioral of entity A_L_RS_Module [a_l_rs_module_default]
+Compiling architecture behavioral of entity Decoder [decoder_default]
+Compiling architecture behavioral of entity Mux_2x1_Q [mux_2x1_q_default]
+Compiling architecture behavioral of entity Register_Q [register_q_default]
+Compiling architecture behavioral of entity Register_with_muxes_Q [register_with_muxes_q_default]
+Compiling architecture behavioral of entity Mux_Reg_Q [mux_reg_q_default]
+Compiling architecture behavioral of entity Compare_Module [compare_module_default]
+Compiling architecture behavioral of entity RF_Module_Q [rf_module_q_default]
+Compiling architecture behavioral of entity Mux_2x1 [mux_2x1_default]
+Compiling architecture behavioral of entity Register1 [register1_default]
+Compiling architecture behavioral of entity Register_with_muxes [register_with_muxes_default]
+Compiling architecture behavioral of entity Mux_Reg [mux_reg_default]
+Compiling architecture behavioral of entity RF_Module_V [rf_module_v_default]
+Compiling architecture behavioral of entity Q_Match_Module [q_match_module_default]
+Compiling architecture behavioral of entity RF_Top_Level [rf_top_level_default]
+Compiling architecture behavioral of entity Issue_Module [issue_module_default]
+Compiling architecture behavioral of entity Tomasulo_TopLevel [tomasulo_toplevel_default]
+Compiling architecture behavior of entity test
+Time Resolution for simulation is 1ps.
+Compiled 77 VHDL Units
+Built simulation executable /home/ise/XilinxShareVm/LASTTTTTTTTTTTTTTT/Tomasulo_with_ROB/Tomasulo_TopLevel/test_isim_beh.exe
+Fuse Memory Usage: 126284 KB
+Fuse CPU Usage: 1110 ms
+GCC CPU Usage: 1300 ms

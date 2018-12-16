@@ -1,0 +1,3 @@
+vhdl work "../A_ALU/A_ALU.vhd"
+vhdl work "../Arithmetic_Control/Arithmetic_Control.vhd"
+vhdl work "FU_Arithmetic_Top_Level.vhd"

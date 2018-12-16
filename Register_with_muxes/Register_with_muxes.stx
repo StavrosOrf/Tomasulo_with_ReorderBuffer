@@ -1,0 +1,44 @@
+Release 13.4 - xst O.87xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/xilinx/lab_5/Register_with_muxes/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.21 secs
+ 
+--> Parameter xsthdpdir set to D:/xilinx/lab_5/Register_with_muxes/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.22 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/xilinx/lab_5/Mux_2x1/Mux_2x1.vhd" in Library work.
+Entity <Mux_2x1> compiled.
+Entity <Mux_2x1> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "D:/xilinx/lab_5/Mux_2x1_32b/Mux_2x1_32b.vhd" in Library work.
+Entity <Mux_2x1_32b> compiled.
+Entity <Mux_2x1_32b> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "D:/xilinx/lab_5/Register/Register.vhd" in Library work.
+Entity <Register1> compiled.
+Entity <Register1> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "D:/xilinx/lab_5/Register_with_muxes/Register_with_muxes.vhd" in Library work.
+Entity <Register_with_muxes> compiled.
+Entity <Register_with_muxes> (Architecture <Behavioral>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.44 secs
+ 
+--> 
+
+Total memory usage is 267008 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

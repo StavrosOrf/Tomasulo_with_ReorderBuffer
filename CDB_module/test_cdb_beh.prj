@@ -1,0 +1,2 @@
+vhdl work "CDB_module.vhd"
+vhdl work "test_cdb.vhd"

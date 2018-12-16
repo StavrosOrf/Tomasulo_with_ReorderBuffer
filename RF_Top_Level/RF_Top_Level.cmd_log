@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/XilinxShareVm/Tomasulo_lab1/RF_Top_Level/RF_Top_Level.xst" -ofn "/home/ise/XilinxShareVm/Tomasulo_lab1/RF_Top_Level/RF_Top_Level.syr" 

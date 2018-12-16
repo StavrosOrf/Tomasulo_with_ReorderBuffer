@@ -1,0 +1,7 @@
+vhdl isim_temp "../Register_FU/Register_FU.vhd"
+vhdl isim_temp "../Mux_2x1_5b/Mux_2x1_5b.vhd"
+vhdl isim_temp "../Mux_2x1_32b/Mux_2x1_32b.vhd"
+vhdl isim_temp "../Mux_2x1_2b/Mux_2x1_2b.vhd"
+vhdl isim_temp "../L_ALU/L_ALU.vhd"
+vhdl isim_temp "FU_Logical_Top_Level.vhd"
+vhdl isim_temp "test_topLevel.vhd"

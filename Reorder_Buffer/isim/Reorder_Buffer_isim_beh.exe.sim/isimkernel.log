@@ -1,0 +1,29 @@
+Command line:
+   Reorder_Buffer_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  63538
+
+Fri Nov 30 13:34:12 2018
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5178.93 Meg
+
+ Total Signals          : 24
+ Total Nets             : 2597
+ Total Signal Drivers   : 9
+ Total Blocks           : 7
+ Total Primitive Blocks : 6
+ Total Processes        : 3
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 3098
+Total Line Count : 19
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 5178.93 Meg
+
+Fri Nov 30 13:34:17 2018
+

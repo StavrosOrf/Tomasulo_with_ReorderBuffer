@@ -1,0 +1,2 @@
+vhdl work "my_Package_Vector.vhd"
+vhdl work "Mux_Reg.vhd"

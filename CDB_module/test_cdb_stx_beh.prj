@@ -1,0 +1,2 @@
+vhdl isim_temp "CDB_module.vhd"
+vhdl isim_temp "test_cdb.vhd"

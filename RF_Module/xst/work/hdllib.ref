@@ -1,0 +1,17 @@
+AR compare_module behavioral D:/Xillinx_Projects/Tomasulo_lab1/Compare_Module/Compare_Module.vhd sub00/vhpl14 1540317740
+AR register_with_muxes behavioral D:/Xillinx_Projects/Tomasulo_lab1/Register_with_muxes/Register_with_muxes.vhd sub00/vhpl10 1540317736
+EN compare_module NULL D:/Xillinx_Projects/Tomasulo_lab1/Compare_Module/Compare_Module.vhd sub00/vhpl13 1540317739
+AR decoder behavioral D:/Xillinx_Projects/Tomasulo_lab1/Decoder/Decoder.vhd sub00/vhpl08 1540317734
+EN mux_2x1_32b NULL D:/Xillinx_Projects/Tomasulo_lab1/Mux_2x1_32b/Mux_2x1_32b.vhd sub00/vhpl03 1540317729
+EN register_with_muxes NULL D:/Xillinx_Projects/Tomasulo_lab1/Register_with_muxes/Register_with_muxes.vhd sub00/vhpl09 1540317735
+AR register1 behavioral D:/Xillinx_Projects/Tomasulo_lab1/Register/Register.vhd sub00/vhpl06 1540317732
+AR mux_2x1_32b behavioral D:/Xillinx_Projects/Tomasulo_lab1/Mux_2x1_32b/Mux_2x1_32b.vhd sub00/vhpl04 1540317730
+EN register1 NULL D:/Xillinx_Projects/Tomasulo_lab1/Register/Register.vhd sub00/vhpl05 1540317731
+EN rf_module_v NULL D:/Xillinx_Projects/Tomasulo_lab1/RF_Module/RF_Module.vhd sub00/vhpl15 1540317741
+AR rf_module_v behavioral D:/Xillinx_Projects/Tomasulo_lab1/RF_Module/RF_Module.vhd sub00/vhpl16 1540317742
+AR mux_reg behavioral D:/Xillinx_Projects/Tomasulo_lab1/Mux_Reg/Mux_Reg.vhd sub00/vhpl12 1540317738
+AR mux_2x1 behavioral D:/Xillinx_Projects/Tomasulo_lab1/Mux_2x1/Mux_2x1.vhd sub00/vhpl02 1540317728
+EN decoder NULL D:/Xillinx_Projects/Tomasulo_lab1/Decoder/Decoder.vhd sub00/vhpl07 1540317733
+EN mux_2x1 NULL D:/Xillinx_Projects/Tomasulo_lab1/Mux_2x1/Mux_2x1.vhd sub00/vhpl01 1540317727
+PH my_package_vector NULL D:/Xillinx_Projects/Tomasulo_lab1/RF_Module/my_Package_Vector.vhd sub00/vhpl00 1540317726
+EN mux_reg NULL D:/Xillinx_Projects/Tomasulo_lab1/Mux_Reg/Mux_Reg.vhd sub00/vhpl11 1540317737

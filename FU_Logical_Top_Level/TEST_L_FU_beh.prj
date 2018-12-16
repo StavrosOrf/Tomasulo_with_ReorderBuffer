@@ -1,0 +1,5 @@
+vhdl work "../Register_FU/Register_FU.vhd"
+vhdl work "../L_ALU/L_ALU.vhd"
+vhdl work "../Logical_Control_FU/Logical_Control_FU.vhd"
+vhdl work "FU_Logical_Top_Level.vhd"
+vhdl work "TEST_L_FU.vhd"

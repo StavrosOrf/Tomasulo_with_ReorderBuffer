@@ -1,0 +1,688 @@
+Release 14.7 - xst P.20160913 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.02 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.02 secs
+ 
+--> 
+Reading design: RF_Top_Level.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "RF_Top_Level.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "RF_Top_Level"
+Output Format                      : NGC
+Target Device                      : xa6slx4-3-csg225
+
+---- Source Options
+Top Module Name                    : RF_Top_Level
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/ise/XilinxShareVm/Tomasulo_lab1/RF_Top_Level/my_Package_VectorV.vhd" into library work
+Parsing package <my_Package_VectorV>.
+Parsing VHDL file "/home/ise/XilinxShareVm/Tomasulo_lab1/Register_Q/Register_Q.vhd" into library work
+Parsing entity <Register_Q>.
+Parsing architecture <Behavioral> of entity <register_q>.
+Parsing VHDL file "/home/ise/XilinxShareVm/Tomasulo_lab1/Register/Register.vhd" into library work
+Parsing entity <Register1>.
+Parsing architecture <Behavioral> of entity <register1>.
+Parsing VHDL file "/home/ise/XilinxShareVm/Tomasulo_lab1/Q_Match_Module/my_Package_Vector.vhd" into library work
+Parsing package <my_Package_Vector>.
+Parsing VHDL file "/home/ise/XilinxShareVm/Tomasulo_lab1/Mux_2x1_Q/Mux_2x1_Q.vhd" into library work
+Parsing entity <Mux_2x1_Q>.
+Parsing architecture <Behavioral> of entity <mux_2x1_q>.
+Parsing VHDL file "/home/ise/XilinxShareVm/Tomasulo_lab1/Mux_2x1_5b/Mux_2x1_5b.vhd" into library work
+Parsing entity <Mux_2x1_5b>.
+Parsing architecture <Behavioral> of entity <mux_2x1_5b>.
+Parsing VHDL file "/home/ise/XilinxShareVm/Tomasulo_lab1/Mux_2x1_32b/Mux_2x1_32b.vhd" into library work
+Parsing entity <Mux_2x1_32b>.
+Parsing architecture <Behavioral> of entity <mux_2x1_32b>.
+Parsing VHDL file "/home/ise/XilinxShareVm/Tomasulo_lab1/Mux_2x1/Mux_2x1.vhd" into library work
+Parsing entity <Mux_2x1>.
+Parsing architecture <Behavioral> of entity <mux_2x1>.
+Parsing VHDL file "/home/ise/XilinxShareVm/Tomasulo_lab1/Register_with_muxes_Q/Register_with_muxes_Q.vhd" into library work
+Parsing entity <Register_with_muxes_Q>.
+Parsing architecture <Behavioral> of entity <register_with_muxes_q>.
+Parsing VHDL file "/home/ise/XilinxShareVm/Tomasulo_lab1/Register_with_muxes/Register_with_muxes.vhd" into library work
+Parsing entity <Register_with_muxes>.
+Parsing architecture <Behavioral> of entity <register_with_muxes>.
+Parsing VHDL file "/home/ise/XilinxShareVm/Tomasulo_lab1/Mux_Reg_Q/Mux_Reg_Q.vhd" into library work
+Parsing entity <Mux_Reg_Q>.
+Parsing architecture <Behavioral> of entity <mux_reg_q>.
+Parsing VHDL file "/home/ise/XilinxShareVm/Tomasulo_lab1/Mux_Reg/Mux_Reg.vhd" into library work
+Parsing entity <Mux_Reg>.
+Parsing architecture <Behavioral> of entity <mux_reg>.
+Parsing VHDL file "/home/ise/XilinxShareVm/Tomasulo_lab1/Decoder/Decoder.vhd" into library work
+Parsing entity <Decoder>.
+Parsing architecture <Behavioral> of entity <decoder>.
+Parsing VHDL file "/home/ise/XilinxShareVm/Tomasulo_lab1/Compare_Module/Compare_Module.vhd" into library work
+Parsing entity <Compare_Module>.
+Parsing architecture <Behavioral> of entity <compare_module>.
+Parsing VHDL file "/home/ise/XilinxShareVm/Tomasulo_lab1/RF_Q_Module/RF_Q_Module.vhd" into library work
+Parsing entity <RF_Module_Q>.
+Parsing architecture <Behavioral> of entity <rf_module_q>.
+Parsing VHDL file "/home/ise/XilinxShareVm/Tomasulo_lab1/RF_Module/RF_Module.vhd" into library work
+Parsing entity <RF_Module_V>.
+Parsing architecture <Behavioral> of entity <rf_module_v>.
+Parsing VHDL file "/home/ise/XilinxShareVm/Tomasulo_lab1/Q_Match_Module/Q_Match_Module.vhd" into library work
+Parsing entity <Q_Match_Module>.
+Parsing architecture <Behavioral> of entity <q_match_module>.
+Parsing VHDL file "/home/ise/XilinxShareVm/Tomasulo_lab1/RF_Top_Level/RF_Top_Level.vhd" into library work
+Parsing entity <RF_Top_Level>.
+Parsing architecture <Behavioral> of entity <rf_top_level>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <RF_Top_Level> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <RF_Module_Q> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Decoder> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Register_with_muxes_Q> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Mux_2x1_Q> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Mux_2x1_5b> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Register_Q> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:92 - "/home/ise/XilinxShareVm/Tomasulo_lab1/Register_Q/Register_Q.vhd" Line 47: wren should be on the sensitivity list of the process
+
+Elaborating entity <Mux_Reg_Q> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Compare_Module> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <RF_Module_V> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Register_with_muxes> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Mux_2x1> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Mux_2x1_32b> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Register1> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:92 - "/home/ise/XilinxShareVm/Tomasulo_lab1/Register/Register.vhd" Line 46: wren should be on the sensitivity list of the process
+
+Elaborating entity <Mux_Reg> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Q_Match_Module> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <RF_Top_Level>.
+    Related source file is "/home/ise/XilinxShareVm/Tomasulo_lab1/RF_Top_Level/RF_Top_Level.vhd".
+WARNING:Xst:647 - Input <Issue> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <RF_Top_Level> synthesized.
+
+Synthesizing Unit <RF_Module_Q>.
+    Related source file is "/home/ise/XilinxShareVm/Tomasulo_lab1/RF_Q_Module/RF_Q_Module.vhd".
+    Summary:
+	no macro.
+Unit <RF_Module_Q> synthesized.
+
+Synthesizing Unit <Decoder>.
+    Related source file is "/home/ise/XilinxShareVm/Tomasulo_lab1/Decoder/Decoder.vhd".
+    Summary:
+	no macro.
+Unit <Decoder> synthesized.
+
+Synthesizing Unit <Register_with_muxes_Q>.
+    Related source file is "/home/ise/XilinxShareVm/Tomasulo_lab1/Register_with_muxes_Q/Register_with_muxes_Q.vhd".
+    Summary:
+	no macro.
+Unit <Register_with_muxes_Q> synthesized.
+
+Synthesizing Unit <Mux_2x1_Q>.
+    Related source file is "/home/ise/XilinxShareVm/Tomasulo_lab1/Mux_2x1_Q/Mux_2x1_Q.vhd".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <Mux_2x1_Q> synthesized.
+
+Synthesizing Unit <Mux_2x1_5b>.
+    Related source file is "/home/ise/XilinxShareVm/Tomasulo_lab1/Mux_2x1_5b/Mux_2x1_5b.vhd".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <Mux_2x1_5b> synthesized.
+
+Synthesizing Unit <Register_Q>.
+    Related source file is "/home/ise/XilinxShareVm/Tomasulo_lab1/Register_Q/Register_Q.vhd".
+    Found 5-bit register for signal <Dout>.
+    Summary:
+	inferred   5 D-type flip-flop(s).
+Unit <Register_Q> synthesized.
+
+Synthesizing Unit <Mux_Reg_Q>.
+    Related source file is "/home/ise/XilinxShareVm/Tomasulo_lab1/Mux_Reg_Q/Mux_Reg_Q.vhd".
+    Found 5-bit 32-to-1 multiplexer for signal <Output> created at line 46.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <Mux_Reg_Q> synthesized.
+
+Synthesizing Unit <Compare_Module>.
+    Related source file is "/home/ise/XilinxShareVm/Tomasulo_lab1/Compare_Module/Compare_Module.vhd".
+    Found 5-bit comparator equal for signal <Awr[4]_Ad[4]_equal_3_o> created at line 47
+    Summary:
+	inferred   1 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <Compare_Module> synthesized.
+
+Synthesizing Unit <RF_Module_V>.
+    Related source file is "/home/ise/XilinxShareVm/Tomasulo_lab1/RF_Module/RF_Module.vhd".
+    Summary:
+	no macro.
+Unit <RF_Module_V> synthesized.
+
+Synthesizing Unit <Register_with_muxes>.
+    Related source file is "/home/ise/XilinxShareVm/Tomasulo_lab1/Register_with_muxes/Register_with_muxes.vhd".
+    Summary:
+	no macro.
+Unit <Register_with_muxes> synthesized.
+
+Synthesizing Unit <Mux_2x1>.
+    Related source file is "/home/ise/XilinxShareVm/Tomasulo_lab1/Mux_2x1/Mux_2x1.vhd".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <Mux_2x1> synthesized.
+
+Synthesizing Unit <Mux_2x1_32b>.
+    Related source file is "/home/ise/XilinxShareVm/Tomasulo_lab1/Mux_2x1_32b/Mux_2x1_32b.vhd".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <Mux_2x1_32b> synthesized.
+
+Synthesizing Unit <Register1>.
+    Related source file is "/home/ise/XilinxShareVm/Tomasulo_lab1/Register/Register.vhd".
+    Found 32-bit register for signal <Dout>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <Register1> synthesized.
+
+Synthesizing Unit <Mux_Reg>.
+    Related source file is "/home/ise/XilinxShareVm/Tomasulo_lab1/Mux_Reg/Mux_Reg.vhd".
+    Found 32-bit 32-to-1 multiplexer for signal <Output> created at line 46.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <Mux_Reg> synthesized.
+
+Synthesizing Unit <Q_Match_Module>.
+    Related source file is "/home/ise/XilinxShareVm/Tomasulo_lab1/Q_Match_Module/Q_Match_Module.vhd".
+WARNING:Xst:647 - Input <Input<0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 5-bit comparator equal for signal <CDB_Q[4]_Input[1][4]_equal_1_o> created at line 53
+    Found 5-bit comparator equal for signal <CDB_Q[4]_Input[2][4]_equal_3_o> created at line 53
+    Found 5-bit comparator equal for signal <CDB_Q[4]_Input[3][4]_equal_5_o> created at line 53
+    Found 5-bit comparator equal for signal <CDB_Q[4]_Input[4][4]_equal_7_o> created at line 53
+    Found 5-bit comparator equal for signal <CDB_Q[4]_Input[5][4]_equal_9_o> created at line 53
+    Found 5-bit comparator equal for signal <CDB_Q[4]_Input[6][4]_equal_11_o> created at line 53
+    Found 5-bit comparator equal for signal <CDB_Q[4]_Input[7][4]_equal_13_o> created at line 53
+    Found 5-bit comparator equal for signal <CDB_Q[4]_Input[8][4]_equal_15_o> created at line 53
+    Found 5-bit comparator equal for signal <CDB_Q[4]_Input[9][4]_equal_17_o> created at line 53
+    Found 5-bit comparator equal for signal <CDB_Q[4]_Input[10][4]_equal_19_o> created at line 53
+    Found 5-bit comparator equal for signal <CDB_Q[4]_Input[11][4]_equal_21_o> created at line 53
+    Found 5-bit comparator equal for signal <CDB_Q[4]_Input[12][4]_equal_23_o> created at line 53
+    Found 5-bit comparator equal for signal <CDB_Q[4]_Input[13][4]_equal_25_o> created at line 53
+    Found 5-bit comparator equal for signal <CDB_Q[4]_Input[14][4]_equal_27_o> created at line 53
+    Found 5-bit comparator equal for signal <CDB_Q[4]_Input[15][4]_equal_29_o> created at line 53
+    Found 5-bit comparator equal for signal <CDB_Q[4]_Input[16][4]_equal_31_o> created at line 53
+    Found 5-bit comparator equal for signal <CDB_Q[4]_Input[17][4]_equal_33_o> created at line 53
+    Found 5-bit comparator equal for signal <CDB_Q[4]_Input[18][4]_equal_35_o> created at line 53
+    Found 5-bit comparator equal for signal <CDB_Q[4]_Input[19][4]_equal_37_o> created at line 53
+    Found 5-bit comparator equal for signal <CDB_Q[4]_Input[20][4]_equal_39_o> created at line 53
+    Found 5-bit comparator equal for signal <CDB_Q[4]_Input[21][4]_equal_41_o> created at line 53
+    Found 5-bit comparator equal for signal <CDB_Q[4]_Input[22][4]_equal_43_o> created at line 53
+    Found 5-bit comparator equal for signal <CDB_Q[4]_Input[23][4]_equal_45_o> created at line 53
+    Found 5-bit comparator equal for signal <CDB_Q[4]_Input[24][4]_equal_47_o> created at line 53
+    Found 5-bit comparator equal for signal <CDB_Q[4]_Input[25][4]_equal_49_o> created at line 53
+    Found 5-bit comparator equal for signal <CDB_Q[4]_Input[26][4]_equal_51_o> created at line 53
+    Found 5-bit comparator equal for signal <CDB_Q[4]_Input[27][4]_equal_53_o> created at line 53
+    Found 5-bit comparator equal for signal <CDB_Q[4]_Input[28][4]_equal_55_o> created at line 53
+    Found 5-bit comparator equal for signal <CDB_Q[4]_Input[29][4]_equal_57_o> created at line 53
+    Found 5-bit comparator equal for signal <CDB_Q[4]_Input[30][4]_equal_59_o> created at line 53
+    Found 5-bit comparator equal for signal <CDB_Q[4]_Input[31][4]_equal_61_o> created at line 53
+    Summary:
+	inferred  31 Comparator(s).
+	inferred  60 Multiplexer(s).
+Unit <Q_Match_Module> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 64
+ 32-bit register                                       : 32
+ 5-bit register                                        : 32
+# Comparators                                          : 35
+ 5-bit comparator equal                                : 35
+# Multiplexers                                         : 206
+ 1-bit 2-to-1 multiplexer                              : 102
+ 32-bit 2-to-1 multiplexer                             : 34
+ 32-bit 32-to-1 multiplexer                            : 2
+ 5-bit 2-to-1 multiplexer                              : 66
+ 5-bit 32-to-1 multiplexer                             : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 1184
+ Flip-Flops                                            : 1184
+# Comparators                                          : 35
+ 5-bit comparator equal                                : 35
+# Multiplexers                                         : 142
+ 1-bit 2-to-1 multiplexer                              : 38
+ 32-bit 2-to-1 multiplexer                             : 34
+ 32-bit 32-to-1 multiplexer                            : 2
+ 5-bit 2-to-1 multiplexer                              : 66
+ 5-bit 32-to-1 multiplexer                             : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <Inst_Reg0/Inst_Register/Dout_4> (without init value) has a constant value of 0 in block <RF_Module_Q>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_Reg0/Inst_Register/Dout_3> (without init value) has a constant value of 0 in block <RF_Module_Q>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_Reg0/Inst_Register/Dout_2> (without init value) has a constant value of 0 in block <RF_Module_Q>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_Reg0/Inst_Register/Dout_1> (without init value) has a constant value of 0 in block <RF_Module_Q>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_Reg0/Inst_Register/Dout_0> (without init value) has a constant value of 0 in block <RF_Module_Q>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <Register1> ...
+
+Optimizing unit <RF_Top_Level> ...
+
+Optimizing unit <RF_Module_Q> ...
+
+Optimizing unit <RF_Module_V> ...
+
+Optimizing unit <Q_Match_Module> ...
+WARNING:Xst:1710 - FF/Latch <Inst_RFV/Inst_Reg0/Inst_Register/Dout_0> (without init value) has a constant value of 0 in block <RF_Top_Level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_RFV/Inst_Reg0/Inst_Register/Dout_1> (without init value) has a constant value of 0 in block <RF_Top_Level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_RFV/Inst_Reg0/Inst_Register/Dout_2> (without init value) has a constant value of 0 in block <RF_Top_Level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_RFV/Inst_Reg0/Inst_Register/Dout_3> (without init value) has a constant value of 0 in block <RF_Top_Level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_RFV/Inst_Reg0/Inst_Register/Dout_4> (without init value) has a constant value of 0 in block <RF_Top_Level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_RFV/Inst_Reg0/Inst_Register/Dout_5> (without init value) has a constant value of 0 in block <RF_Top_Level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_RFV/Inst_Reg0/Inst_Register/Dout_6> (without init value) has a constant value of 0 in block <RF_Top_Level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_RFV/Inst_Reg0/Inst_Register/Dout_7> (without init value) has a constant value of 0 in block <RF_Top_Level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_RFV/Inst_Reg0/Inst_Register/Dout_8> (without init value) has a constant value of 0 in block <RF_Top_Level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_RFV/Inst_Reg0/Inst_Register/Dout_9> (without init value) has a constant value of 0 in block <RF_Top_Level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_RFV/Inst_Reg0/Inst_Register/Dout_10> (without init value) has a constant value of 0 in block <RF_Top_Level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_RFV/Inst_Reg0/Inst_Register/Dout_11> (without init value) has a constant value of 0 in block <RF_Top_Level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_RFV/Inst_Reg0/Inst_Register/Dout_12> (without init value) has a constant value of 0 in block <RF_Top_Level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_RFV/Inst_Reg0/Inst_Register/Dout_13> (without init value) has a constant value of 0 in block <RF_Top_Level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_RFV/Inst_Reg0/Inst_Register/Dout_14> (without init value) has a constant value of 0 in block <RF_Top_Level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_RFV/Inst_Reg0/Inst_Register/Dout_15> (without init value) has a constant value of 0 in block <RF_Top_Level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_RFV/Inst_Reg0/Inst_Register/Dout_16> (without init value) has a constant value of 0 in block <RF_Top_Level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_RFV/Inst_Reg0/Inst_Register/Dout_17> (without init value) has a constant value of 0 in block <RF_Top_Level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_RFV/Inst_Reg0/Inst_Register/Dout_18> (without init value) has a constant value of 0 in block <RF_Top_Level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_RFV/Inst_Reg0/Inst_Register/Dout_19> (without init value) has a constant value of 0 in block <RF_Top_Level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_RFV/Inst_Reg0/Inst_Register/Dout_20> (without init value) has a constant value of 0 in block <RF_Top_Level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_RFV/Inst_Reg0/Inst_Register/Dout_21> (without init value) has a constant value of 0 in block <RF_Top_Level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_RFV/Inst_Reg0/Inst_Register/Dout_22> (without init value) has a constant value of 0 in block <RF_Top_Level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_RFV/Inst_Reg0/Inst_Register/Dout_23> (without init value) has a constant value of 0 in block <RF_Top_Level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_RFV/Inst_Reg0/Inst_Register/Dout_24> (without init value) has a constant value of 0 in block <RF_Top_Level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_RFV/Inst_Reg0/Inst_Register/Dout_25> (without init value) has a constant value of 0 in block <RF_Top_Level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_RFV/Inst_Reg0/Inst_Register/Dout_26> (without init value) has a constant value of 0 in block <RF_Top_Level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_RFV/Inst_Reg0/Inst_Register/Dout_27> (without init value) has a constant value of 0 in block <RF_Top_Level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_RFV/Inst_Reg0/Inst_Register/Dout_28> (without init value) has a constant value of 0 in block <RF_Top_Level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_RFV/Inst_Reg0/Inst_Register/Dout_29> (without init value) has a constant value of 0 in block <RF_Top_Level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_RFV/Inst_Reg0/Inst_Register/Dout_30> (without init value) has a constant value of 0 in block <RF_Top_Level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_RFV/Inst_Reg0/Inst_Register/Dout_31> (without init value) has a constant value of 0 in block <RF_Top_Level>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block RF_Top_Level, actual ratio is 79.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 1147
+ Flip-Flops                                            : 1147
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : RF_Top_Level.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 1242
+#      GND                         : 1
+#      LUT2                        : 33
+#      LUT3                        : 79
+#      LUT4                        : 22
+#      LUT5                        : 217
+#      LUT6                        : 814
+#      MUXF7                       : 76
+# FlipFlops/Latches                : 1147
+#      FD                          : 118
+#      FDE                         : 1029
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 133
+#      IBUF                        : 59
+#      OBUF                        : 74
+
+Device utilization summary:
+---------------------------
+
+Selected Device : xa6slx4csg225-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:            1147  out of   4800    23%  
+ Number of Slice LUTs:                 1165  out of   2400    48%  
+    Number used as Logic:              1165  out of   2400    48%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   1514
+   Number with an unused Flip Flop:     367  out of   1514    24%  
+   Number with an unused LUT:           349  out of   1514    23%  
+   Number of fully used LUT-FF pairs:   798  out of   1514    52%  
+   Number of unique control sets:        40
+
+IO Utilization: 
+ Number of IOs:                         135
+ Number of bonded IOBs:                 134  out of    132   101% (*) 
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 1147  |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 9.572ns (Maximum Frequency: 104.473MHz)
+   Minimum input arrival time before clock: 11.078ns
+   Maximum output required time after clock: 14.653ns
+   Maximum combinational path delay: 16.181ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 9.572ns (frequency: 104.473MHz)
+  Total number of paths / destination ports: 2002718 / 1184
+-------------------------------------------------------------------------
+Delay:               9.572ns (Levels of Logic = 7)
+  Source:            Inst_RFQ/generate_registers_31_to_1[9].Inst_Reg31/Inst_Register/Dout_2 (FF)
+  Destination:       Inst_RFV/generate_registers_31_to_1[4].Inst_Reg31/Inst_Register/Dout_31 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: Inst_RFQ/generate_registers_31_to_1[9].Inst_Reg31/Inst_Register/Dout_2 to Inst_RFV/generate_registers_31_to_1[4].Inst_Reg31/Inst_Register/Dout_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               4   0.447   0.912  Inst_RFQ/generate_registers_31_to_1[9].Inst_Reg31/Inst_Register/Dout_2 (Inst_RFQ/generate_registers_31_to_1[9].Inst_Reg31/Inst_Register/Dout_2)
+     LUT6:I3->O            1   0.205   0.580  Inst_Q_Match/CDB_Q[4]_Input[9][4]_equal_17_o5_SW0 (N4)
+     LUT5:I4->O            5   0.205   0.715  Inst_Q_Match/CDB_Q[4]_Input[9][4]_equal_17_o5 (Inst_Q_Match/CDB_Q[4]_Input[9][4]_equal_17_o)
+     LUT6:I5->O            1   0.205   0.944  Inst_Mux_2x1_addr/Mmux_mux_out211 (Inst_Mux_2x1_addr/Mmux_mux_out210)
+     LUT6:I0->O            1   0.203   0.580  Inst_Mux_2x1_addr/Mmux_mux_out212 (Inst_Mux_2x1_addr/Mmux_mux_out211)
+     LUT6:I5->O            1   0.205   0.580  Inst_Mux_2x1_addr/Mmux_mux_out213 (Inst_Mux_2x1_addr/Mmux_mux_out212)
+     LUT6:I5->O           68   0.205   1.771  Inst_Mux_2x1_addr/Mmux_mux_out215 (tmp_addr<1>)
+     LUT5:I3->O           32   0.203   1.291  Inst_RFV/generate_registers_31_to_1[23].Inst_Reg31/Inst_Mux_2x1/Mmux_Output11 (Inst_RFV/generate_registers_31_to_1[23].Inst_Reg31/tmp_mux_2x1_out)
+     FDE:CE                    0.322          Inst_RFV/generate_registers_31_to_1[23].Inst_Reg31/Inst_Register/Dout_0
+    ----------------------------------------
+    Total                      9.572ns (2.200ns logic, 7.372ns route)
+                                       (23.0% logic, 77.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 2011931 / 2176
+-------------------------------------------------------------------------
+Offset:              11.078ns (Levels of Logic = 8)
+  Source:            CDB_Q<2> (PAD)
+  Destination:       Inst_RFV/generate_registers_31_to_1[1].Inst_Reg31/Inst_Register/Dout_31 (FF)
+  Destination Clock: CLK rising
+
+  Data Path: CDB_Q<2> to Inst_RFV/generate_registers_31_to_1[1].Inst_Reg31/Inst_Register/Dout_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            31   1.222   1.642  CDB_Q_2_IBUF (CDB_Q_2_IBUF)
+     LUT6:I0->O            1   0.203   0.580  Inst_Q_Match/CDB_Q[4]_Input[2][4]_equal_3_o5_SW0 (N22)
+     LUT5:I4->O            3   0.205   0.995  Inst_Q_Match/CDB_Q[4]_Input[2][4]_equal_3_o5 (Inst_Q_Match/CDB_Q[4]_Input[2][4]_equal_3_o)
+     LUT6:I1->O            3   0.203   0.995  Inst_Q_Match/Mmux_Q_match12 (Inst_Q_Match/Mmux_Q_match11)
+     LUT6:I1->O            5   0.203   0.715  Inst_Q_Match/Mmux_Q_match17_1 (Inst_Q_Match/Mmux_Q_match17)
+     LUT5:I4->O           12   0.205   1.013  Inst_Mux_2x1_addr/Mmux_mux_out34 (tmp_addr<2>)
+     LUT3:I1->O            7   0.203   0.878  Inst_RFV/generate_registers_31_to_1[16].Inst_Reg31/Inst_Mux_2x1/Mmux_Output111 (Inst_RFV/generate_registers_31_to_1[16].Inst_Reg31/Inst_Mux_2x1/Mmux_Output11)
+     LUT5:I3->O           32   0.203   1.291  Inst_RFV/generate_registers_31_to_1[17].Inst_Reg31/Inst_Mux_2x1/Mmux_Output11 (Inst_RFV/generate_registers_31_to_1[17].Inst_Reg31/tmp_mux_2x1_out)
+     FDE:CE                    0.322          Inst_RFV/generate_registers_31_to_1[17].Inst_Reg31/Inst_Register/Dout_0
+    ----------------------------------------
+    Total                     11.078ns (2.969ns logic, 8.109ns route)
+                                       (26.8% logic, 73.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 236204 / 74
+-------------------------------------------------------------------------
+Offset:              14.653ns (Levels of Logic = 10)
+  Source:            Inst_RFQ/generate_registers_31_to_1[10].Inst_Reg31/Inst_Register/Dout_2 (FF)
+  Destination:       RsOut_V<31> (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: Inst_RFQ/generate_registers_31_to_1[10].Inst_Reg31/Inst_Register/Dout_2 to RsOut_V<31>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               4   0.447   0.912  Inst_RFQ/generate_registers_31_to_1[10].Inst_Reg31/Inst_Register/Dout_2 (Inst_RFQ/generate_registers_31_to_1[10].Inst_Reg31/Inst_Register/Dout_2)
+     LUT6:I3->O            2   0.205   0.617  Inst_Q_Match/CDB_Q[4]_Input[10][4]_equal_19_o5_SW0 (N64)
+     LUT5:I4->O            4   0.205   1.048  Inst_Q_Match/CDB_Q[4]_Input[10][4]_equal_19_o5 (Inst_Q_Match/CDB_Q[4]_Input[10][4]_equal_19_o)
+     LUT6:I0->O            3   0.203   0.879  Inst_Q_Match/Mmux_Q_match14 (Inst_Q_Match/Mmux_Q_match13)
+     LUT6:I3->O            5   0.205   0.715  Inst_Q_Match/Mmux_Q_match17_1 (Inst_Q_Match/Mmux_Q_match17)
+     LUT6:I5->O           66   0.205   1.998  Inst_Mux_2x1_addr/Mmux_mux_out5 (tmp_addr<4>)
+     LUT6:I1->O            1   0.203   0.808  Inst_RFQ/Inst_Compare_Module2/Mmux_Out_compare15 (Inst_RFQ/Inst_Compare_Module2/Mmux_Out_compare15)
+     LUT4:I1->O            2   0.205   0.721  Inst_RFQ/Inst_Compare_Module2/Mmux_Out_compare16 (Inst_RFQ/Inst_Compare_Module2/Mmux_Out_compare16)
+     LUT6:I4->O           32   0.203   1.520  Inst_RFV/Inst_Compare_Module2/Mmux_Out_compare17 (Inst_RFV/tmp_out_compare2)
+     LUT3:I0->O            1   0.205   0.579  Inst_RFV/Inst_Mux_2x1_32b_2/Mmux_mux_out110 (RtOut_V_0_OBUF)
+     OBUF:I->O                 2.571          RtOut_V_0_OBUF (RtOut_V<0>)
+    ----------------------------------------
+    Total                     14.653ns (4.857ns logic, 9.796ns route)
+                                       (33.1% logic, 66.9% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 237176 / 74
+-------------------------------------------------------------------------
+Delay:               16.181ns (Levels of Logic = 11)
+  Source:            CDB_Q<2> (PAD)
+  Destination:       RsOut_V<31> (PAD)
+
+  Data Path: CDB_Q<2> to RsOut_V<31>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            31   1.222   1.642  CDB_Q_2_IBUF (CDB_Q_2_IBUF)
+     LUT6:I0->O            1   0.203   0.580  Inst_Q_Match/CDB_Q[4]_Input[2][4]_equal_3_o5_SW0 (N22)
+     LUT5:I4->O            3   0.205   0.995  Inst_Q_Match/CDB_Q[4]_Input[2][4]_equal_3_o5 (Inst_Q_Match/CDB_Q[4]_Input[2][4]_equal_3_o)
+     LUT6:I1->O            3   0.203   0.995  Inst_Q_Match/Mmux_Q_match12 (Inst_Q_Match/Mmux_Q_match11)
+     LUT6:I1->O            5   0.203   0.715  Inst_Q_Match/Mmux_Q_match17_1 (Inst_Q_Match/Mmux_Q_match17)
+     LUT6:I5->O           66   0.205   1.998  Inst_Mux_2x1_addr/Mmux_mux_out5 (tmp_addr<4>)
+     LUT6:I1->O            1   0.203   0.808  Inst_RFQ/Inst_Compare_Module2/Mmux_Out_compare15 (Inst_RFQ/Inst_Compare_Module2/Mmux_Out_compare15)
+     LUT4:I1->O            2   0.205   0.721  Inst_RFQ/Inst_Compare_Module2/Mmux_Out_compare16 (Inst_RFQ/Inst_Compare_Module2/Mmux_Out_compare16)
+     LUT6:I4->O           32   0.203   1.520  Inst_RFV/Inst_Compare_Module2/Mmux_Out_compare17 (Inst_RFV/tmp_out_compare2)
+     LUT3:I0->O            1   0.205   0.579  Inst_RFV/Inst_Mux_2x1_32b_2/Mmux_mux_out110 (RtOut_V_0_OBUF)
+     OBUF:I->O                 2.571          RtOut_V_0_OBUF (RtOut_V<0>)
+    ----------------------------------------
+    Total                     16.181ns (5.628ns logic, 10.553ns route)
+                                       (34.8% logic, 65.2% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    9.572|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 7.96 secs
+ 
+--> 
+
+
+Total memory usage is 490468 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   42 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

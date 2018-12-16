@@ -1,0 +1,787 @@
+Release 14.7 - xst P.20160913 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.02 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.02 secs
+ 
+--> 
+Reading design: A_L_RS_Module.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "A_L_RS_Module.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "A_L_RS_Module"
+Output Format                      : NGC
+Target Device                      : xa6slx4-3-csg225
+
+---- Source Options
+Top Module Name                    : A_L_RS_Module
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station/Reservation_Station.vhd" into library work
+Parsing entity <Reservation_Station>.
+Parsing architecture <Behavioral> of entity <reservation_station>.
+Parsing VHDL file "/home/ise/XilinxShareVm/Tomasulo_lab1/Mux_2x1_5b/Mux_2x1_5b.vhd" into library work
+Parsing entity <Mux_2x1_5b>.
+Parsing architecture <Behavioral> of entity <mux_2x1_5b>.
+Parsing VHDL file "/home/ise/XilinxShareVm/Tomasulo_lab1/Mux_2x1_32b/Mux_2x1_32b.vhd" into library work
+Parsing entity <Mux_2x1_32b>.
+Parsing architecture <Behavioral> of entity <mux_2x1_32b>.
+Parsing VHDL file "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.vhd" into library work
+Parsing entity <Reservation_Station_Top_Level>.
+Parsing architecture <Behavioral> of entity <reservation_station_top_level>.
+Parsing VHDL file "/home/ise/XilinxShareVm/Tomasulo_lab1/A_L_RS_Module/A_L_RS_Module.vhd" into library work
+Parsing entity <A_L_RS_Module>.
+Parsing architecture <Behavioral> of entity <a_l_rs_module>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <A_L_RS_Module> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Reservation_Station_Top_Level> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Reservation_Station> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:92 - "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station/Reservation_Station.vhd" Line 62: wren_busy should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station/Reservation_Station.vhd" Line 65: wren_vj should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station/Reservation_Station.vhd" Line 68: wren_vk should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station/Reservation_Station.vhd" Line 71: wren_qj should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station/Reservation_Station.vhd" Line 74: wren_qk should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station/Reservation_Station.vhd" Line 77: wren_op should be on the sensitivity list of the process
+
+Elaborating entity <Mux_2x1_32b> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Mux_2x1_5b> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:92 - "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.vhd" Line 128: issue should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.vhd" Line 132: issue should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.vhd" Line 138: issue should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.vhd" Line 142: issue should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.vhd" Line 147: issue should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.vhd" Line 149: issue should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.vhd" Line 150: reset should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.vhd" Line 151: tmp_busy should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.vhd" Line 152: reset should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.vhd" Line 158: issue should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.vhd" Line 159: issue should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.vhd" Line 160: issue should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.vhd" Line 161: issue should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.vhd" Line 162: q_match_k should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.vhd" Line 163: q_match_j should be on the sensitivity list of the process
+WARNING:HDLCompiler:634 - "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.vhd" Line 62: Net <tmp_reset> does not have a driver.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <A_L_RS_Module>.
+    Related source file is "/home/ise/XilinxShareVm/Tomasulo_lab1/A_L_RS_Module/A_L_RS_Module.vhd".
+    Summary:
+	inferred  12 Multiplexer(s).
+Unit <A_L_RS_Module> synthesized.
+
+Synthesizing Unit <Reservation_Station_Top_Level>.
+    Related source file is "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.vhd".
+WARNING:Xst:653 - Signal <tmp_reset> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:737 - Found 1-bit latch for signal <tmp_busy>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 5-bit comparator equal for signal <q_match_j> created at line 126
+    Found 5-bit comparator equal for signal <q_match_k> created at line 136
+    Summary:
+	inferred   1 Latch(s).
+	inferred   2 Comparator(s).
+	inferred   3 Multiplexer(s).
+Unit <Reservation_Station_Top_Level> synthesized.
+
+Synthesizing Unit <Reservation_Station>.
+    Related source file is "/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station/Reservation_Station.vhd".
+    Found 32-bit register for signal <Vj_out>.
+    Found 32-bit register for signal <Vk_out>.
+    Found 5-bit register for signal <Qj_out>.
+    Found 5-bit register for signal <Qk_out>.
+    Found 2-bit register for signal <Op_out>.
+    Found 1-bit register for signal <Reset_Busy_out_AND_1_o>.
+    Found 1-bit register for signal <Busy_out>.
+    Summary:
+	inferred  78 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <Reservation_Station> synthesized.
+
+Synthesizing Unit <Mux_2x1_32b>.
+    Related source file is "/home/ise/XilinxShareVm/Tomasulo_lab1/Mux_2x1_32b/Mux_2x1_32b.vhd".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <Mux_2x1_32b> synthesized.
+
+Synthesizing Unit <Mux_2x1_5b>.
+    Related source file is "/home/ise/XilinxShareVm/Tomasulo_lab1/Mux_2x1_5b/Mux_2x1_5b.vhd".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <Mux_2x1_5b> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 35
+ 1-bit register                                        : 10
+ 2-bit register                                        : 5
+ 32-bit register                                       : 10
+ 5-bit register                                        : 10
+# Latches                                              : 5
+ 1-bit latch                                           : 5
+# Comparators                                          : 10
+ 5-bit comparator equal                                : 10
+# Multiplexers                                         : 52
+ 1-bit 2-to-1 multiplexer                              : 32
+ 32-bit 2-to-1 multiplexer                             : 10
+ 5-bit 2-to-1 multiplexer                              : 10
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 390
+ Flip-Flops                                            : 390
+# Comparators                                          : 10
+ 5-bit comparator equal                                : 10
+# Multiplexers                                         : 47
+ 1-bit 2-to-1 multiplexer                              : 27
+ 32-bit 2-to-1 multiplexer                             : 10
+ 5-bit 2-to-1 multiplexer                              : 10
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:3002 - This design contains one or more registers/latches that are directly
+   incompatible with the Automotive Spartan6 architecture. The two primary causes of this is
+   either a register or latch described with both an asynchronous set and
+   asynchronous reset, or a register or latch described with an asynchronous
+   set or reset which however has an initialization value of the opposite 
+   polarity (i.e. asynchronous reset with an initialization value of 1).
+    While this circuit can be built, it creates a sub-optimal implementation
+   in terms of area, power and performance. For a more optimal implementation
+   Xilinx highly recommends one of the following:
+
+          1) Remove either the set or reset from all registers and latches
+             if not needed for required functionality
+          2) Modify the code in order to produce a synchronous set
+             and/or reset (both is preferred)
+          3) Ensure all registers have the same initialization value as the
+             described asynchronous set or reset polarity
+          4) Use the -async_to_sync option to transform the asynchronous
+             set/reset to synchronous operation
+             (timing simulation highly recommended when using this option)
+
+  Please refer to http://www.xilinx.com search string "Automotive Spartan6 asynchronous set/reset" for more details.
+
+  List of register instances with asynchronous set and reset:
+    Busy_out in unit <Reservation_Station>
+
+
+Optimizing unit <A_L_RS_Module> ...
+
+Optimizing unit <Reservation_Station> ...
+WARNING:Xst:1710 - FF/Latch <Inst_A3_Rs/Inst_RS/Qk_out_0> (without init value) has a constant value of 0 in block <A_L_RS_Module>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_A3_Rs/Inst_RS/Qk_out_1> (without init value) has a constant value of 0 in block <A_L_RS_Module>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_A3_Rs/Inst_RS/Qk_out_2> (without init value) has a constant value of 0 in block <A_L_RS_Module>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_A3_Rs/Inst_RS/Qk_out_3> (without init value) has a constant value of 0 in block <A_L_RS_Module>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_A3_Rs/Inst_RS/Qk_out_4> (without init value) has a constant value of 0 in block <A_L_RS_Module>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_A2_Rs/Inst_RS/Qk_out_0> (without init value) has a constant value of 0 in block <A_L_RS_Module>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_A2_Rs/Inst_RS/Qk_out_1> (without init value) has a constant value of 0 in block <A_L_RS_Module>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_A2_Rs/Inst_RS/Qk_out_2> (without init value) has a constant value of 0 in block <A_L_RS_Module>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_A2_Rs/Inst_RS/Qk_out_3> (without init value) has a constant value of 0 in block <A_L_RS_Module>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_A2_Rs/Inst_RS/Qk_out_4> (without init value) has a constant value of 0 in block <A_L_RS_Module>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_A1_Rs/Inst_RS/Qk_out_0> (without init value) has a constant value of 0 in block <A_L_RS_Module>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_A1_Rs/Inst_RS/Qk_out_1> (without init value) has a constant value of 0 in block <A_L_RS_Module>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_A1_Rs/Inst_RS/Qk_out_2> (without init value) has a constant value of 0 in block <A_L_RS_Module>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_A1_Rs/Inst_RS/Qk_out_3> (without init value) has a constant value of 0 in block <A_L_RS_Module>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_A1_Rs/Inst_RS/Qk_out_4> (without init value) has a constant value of 0 in block <A_L_RS_Module>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_L2_Rs/Inst_RS/Qk_out_0> (without init value) has a constant value of 0 in block <A_L_RS_Module>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_L2_Rs/Inst_RS/Qk_out_1> (without init value) has a constant value of 0 in block <A_L_RS_Module>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_L2_Rs/Inst_RS/Qk_out_2> (without init value) has a constant value of 0 in block <A_L_RS_Module>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_L2_Rs/Inst_RS/Qk_out_3> (without init value) has a constant value of 0 in block <A_L_RS_Module>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_L2_Rs/Inst_RS/Qk_out_4> (without init value) has a constant value of 0 in block <A_L_RS_Module>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_L1_Rs/Inst_RS/Qk_out_0> (without init value) has a constant value of 0 in block <A_L_RS_Module>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_L1_Rs/Inst_RS/Qk_out_1> (without init value) has a constant value of 0 in block <A_L_RS_Module>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_L1_Rs/Inst_RS/Qk_out_2> (without init value) has a constant value of 0 in block <A_L_RS_Module>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_L1_Rs/Inst_RS/Qk_out_3> (without init value) has a constant value of 0 in block <A_L_RS_Module>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Inst_L1_Rs/Inst_RS/Qk_out_4> (without init value) has a constant value of 0 in block <A_L_RS_Module>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block A_L_RS_Module, actual ratio is 22.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 370
+ Flip-Flops                                            : 370
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : A_L_RS_Module.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 371
+#      GND                         : 1
+#      INV                         : 5
+#      LUT3                        : 335
+#      LUT5                        : 2
+#      LUT6                        : 27
+#      VCC                         : 1
+# FlipFlops/Latches                : 380
+#      FD                          : 5
+#      FDC                         : 5
+#      FDE                         : 355
+#      FDP                         : 5
+#      LDC                         : 5
+#      LDPE_1                      : 5
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 502
+#      IBUF                        : 117
+#      OBUF                        : 385
+
+Device utilization summary:
+---------------------------
+
+Selected Device : xa6slx4csg225-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              25  out of   4800     0%  
+ Number of Slice LUTs:                  369  out of   2400    15%  
+    Number used as Logic:               369  out of   2400    15%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    382
+   Number with an unused Flip Flop:     357  out of    382    93%  
+   Number with an unused LUT:            13  out of    382     3%  
+   Number of fully used LUT-FF pairs:    12  out of    382     3%  
+   Number of unique control sets:        36
+
+IO Utilization: 
+ Number of IOs:                         503
+ Number of bonded IOBs:                 503  out of    132   381% (*) 
+    IOB Flip Flops/Latches:             355
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+--------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                | Load  |
+-----------------------------------+--------------------------------------+-------+
+issue_a3(Mmux_issue_a311:O)        | NONE(*)(Inst_A3_Rs/tmp_busy)         | 1     |
+issue_a2(Mmux_issue_a211:O)        | NONE(*)(Inst_A2_Rs/tmp_busy)         | 1     |
+issue_a1(issue_a1<2>1:O)           | NONE(*)(Inst_A1_Rs/tmp_busy)         | 1     |
+issue_l2(Mmux_issue_l211:O)        | NONE(*)(Inst_L2_Rs/tmp_busy)         | 1     |
+issue_l1(Mmux_issue_l111:O)        | NONE(*)(Inst_L1_Rs/tmp_busy)         | 1     |
+clk                                | BUFGP                                | 370   |
+Inst_L1_Rs/Inst_RS/_i000011        | NONE(Inst_L1_Rs/Inst_RS/Busy_out_LDC)| 1     |
+Inst_L2_Rs/Inst_RS/_i000011        | NONE(Inst_L2_Rs/Inst_RS/Busy_out_LDC)| 1     |
+Inst_A1_Rs/Inst_RS/_i000011        | NONE(Inst_A1_Rs/Inst_RS/Busy_out_LDC)| 1     |
+Inst_A2_Rs/Inst_RS/_i000011        | NONE(Inst_A2_Rs/Inst_RS/Busy_out_LDC)| 1     |
+Inst_A3_Rs/Inst_RS/_i000011        | NONE(Inst_A3_Rs/Inst_RS/Busy_out_LDC)| 1     |
+-----------------------------------+--------------------------------------+-------+
+(*) These 5 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 2.349ns (Maximum Frequency: 425.622MHz)
+   Minimum input arrival time before clock: 5.684ns
+   Maximum output required time after clock: 4.769ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 2.349ns (frequency: 425.622MHz)
+  Total number of paths / destination ports: 40 / 25
+-------------------------------------------------------------------------
+Delay:               2.349ns (Levels of Logic = 1)
+  Source:            Inst_L1_Rs/Inst_RS/_i000011 (FF)
+  Destination:       Inst_L1_Rs/Inst_RS/Busy_out_C (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: Inst_L1_Rs/Inst_RS/_i000011 to Inst_L1_Rs/Inst_RS/Busy_out_C
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               3   0.447   0.650  Inst_L1_Rs/Inst_RS/_i000011 (Inst_L1_Rs/Inst_RS/_i000011)
+     INV:I->O              2   0.206   0.616  Inst_L1_Rs/Inst_RS/Reset_Busy_out_AND_1_o_inv1_INV_0 (Inst_L1_Rs/Inst_RS/Reset_Busy_out_AND_1_o_inv)
+     FDC:CLR                   0.430          Inst_L1_Rs/Inst_RS/Busy_out_C
+    ----------------------------------------
+    Total                      2.349ns (1.083ns logic, 1.267ns route)
+                                       (46.1% logic, 53.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'issue_a3'
+  Total number of paths / destination ports: 4 / 2
+-------------------------------------------------------------------------
+Offset:              3.629ns (Levels of Logic = 2)
+  Source:            RsDest<1> (PAD)
+  Destination:       Inst_A3_Rs/tmp_busy (LATCH)
+  Destination Clock: issue_a3 rising
+
+  Data Path: RsDest<1> to Inst_A3_Rs/tmp_busy
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   1.222   0.943  RsDest_1_IBUF (RsDest_1_IBUF)
+     LUT3:I0->O            9   0.205   0.829  Mmux_issue_a311 (issue_a3)
+     LDPE_1:PRE                0.430          Inst_A3_Rs/tmp_busy
+    ----------------------------------------
+    Total                      3.629ns (1.857ns logic, 1.772ns route)
+                                       (51.2% logic, 48.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'issue_a2'
+  Total number of paths / destination ports: 4 / 2
+-------------------------------------------------------------------------
+Offset:              3.629ns (Levels of Logic = 2)
+  Source:            RsDest<2> (PAD)
+  Destination:       Inst_A2_Rs/tmp_busy (LATCH)
+  Destination Clock: issue_a2 rising
+
+  Data Path: RsDest<2> to Inst_A2_Rs/tmp_busy
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   1.222   0.943  RsDest_2_IBUF (RsDest_2_IBUF)
+     LUT3:I0->O            9   0.205   0.829  Mmux_issue_a211 (issue_a2)
+     LDPE_1:PRE                0.430          Inst_A2_Rs/tmp_busy
+    ----------------------------------------
+    Total                      3.629ns (1.857ns logic, 1.772ns route)
+                                       (51.2% logic, 48.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'issue_a1'
+  Total number of paths / destination ports: 4 / 2
+-------------------------------------------------------------------------
+Offset:              3.629ns (Levels of Logic = 2)
+  Source:            RsDest<2> (PAD)
+  Destination:       Inst_A1_Rs/tmp_busy (LATCH)
+  Destination Clock: issue_a1 rising
+
+  Data Path: RsDest<2> to Inst_A1_Rs/tmp_busy
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   1.222   0.943  RsDest_2_IBUF (RsDest_2_IBUF)
+     LUT3:I0->O            9   0.205   0.829  issue_a1<2>1 (issue_a1)
+     LDPE_1:PRE                0.430          Inst_A1_Rs/tmp_busy
+    ----------------------------------------
+    Total                      3.629ns (1.857ns logic, 1.772ns route)
+                                       (51.2% logic, 48.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'issue_l2'
+  Total number of paths / destination ports: 4 / 2
+-------------------------------------------------------------------------
+Offset:              3.629ns (Levels of Logic = 2)
+  Source:            RsDest<0> (PAD)
+  Destination:       Inst_L2_Rs/tmp_busy (LATCH)
+  Destination Clock: issue_l2 rising
+
+  Data Path: RsDest<0> to Inst_L2_Rs/tmp_busy
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   1.222   0.943  RsDest_0_IBUF (RsDest_0_IBUF)
+     LUT3:I0->O            9   0.205   0.829  Mmux_issue_l211 (issue_l2)
+     LDPE_1:PRE                0.430          Inst_L2_Rs/tmp_busy
+    ----------------------------------------
+    Total                      3.629ns (1.857ns logic, 1.772ns route)
+                                       (51.2% logic, 48.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'issue_l1'
+  Total number of paths / destination ports: 4 / 2
+-------------------------------------------------------------------------
+Offset:              3.629ns (Levels of Logic = 2)
+  Source:            RsDest<1> (PAD)
+  Destination:       Inst_L1_Rs/tmp_busy (LATCH)
+  Destination Clock: issue_l1 rising
+
+  Data Path: RsDest<1> to Inst_L1_Rs/tmp_busy
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   1.222   0.943  RsDest_1_IBUF (RsDest_1_IBUF)
+     LUT3:I0->O            9   0.205   0.829  Mmux_issue_l111 (issue_l1)
+     LDPE_1:PRE                0.430          Inst_L1_Rs/tmp_busy
+    ----------------------------------------
+    Total                      3.629ns (1.857ns logic, 1.772ns route)
+                                       (51.2% logic, 48.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 9870 / 715
+-------------------------------------------------------------------------
+Offset:              5.684ns (Levels of Logic = 4)
+  Source:            CDB_Q<0> (PAD)
+  Destination:       Inst_L1_Rs/Inst_RS/Vk_out_31 (FF)
+  Destination Clock: clk rising
+
+  Data Path: CDB_Q<0> to Inst_L1_Rs/Inst_RS/Vk_out_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.222   0.981  CDB_Q_0_IBUF (CDB_Q_0_IBUF)
+     LUT6:I0->O           11   0.203   1.247  Inst_A1_Rs/q_match_j5_SW0 (N2)
+     LUT6:I0->O           32   0.203   1.520  Inst_A3_Rs/q_match_j_Issue_AND_4_o1 (Inst_A3_Rs/q_match_j_Issue_AND_4_o)
+     LUT3:I0->O            1   0.205   0.000  Inst_A3_Rs/Inst_Mux_Vj/Mmux_mux_out321 (Inst_A3_Rs/tmp_vj<9>)
+     FDE:D                     0.102          Inst_A3_Rs/Inst_RS/Vj_out_9
+    ----------------------------------------
+    Total                      5.684ns (1.935ns logic, 3.749ns route)
+                                       (34.0% logic, 66.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 365 / 360
+-------------------------------------------------------------------------
+Offset:              4.593ns (Levels of Logic = 2)
+  Source:            Inst_A1_Rs/Inst_RS/Busy_out_C (FF)
+  Destination:       ba1 (PAD)
+  Source Clock:      clk rising
+
+  Data Path: Inst_A1_Rs/Inst_RS/Busy_out_C to ba1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.447   0.721  Inst_A1_Rs/Inst_RS/Busy_out_C (Inst_A1_Rs/Inst_RS/Busy_out_C)
+     LUT3:I1->O            3   0.203   0.650  Inst_A1_Rs/Inst_RS/Busy_out1 (Inst_A1_Rs/Inst_RS/Busy_out)
+     OBUF:I->O                 2.571          ba1_OBUF (ba1)
+    ----------------------------------------
+    Total                      4.593ns (3.221ns logic, 1.372ns route)
+                                       (70.1% logic, 29.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_A1_Rs/Inst_RS/_i000011'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.769ns (Levels of Logic = 2)
+  Source:            Inst_A1_Rs/Inst_RS/Busy_out_LDC (LATCH)
+  Destination:       ba1 (PAD)
+  Source Clock:      Inst_A1_Rs/Inst_RS/_i000011 falling
+
+  Data Path: Inst_A1_Rs/Inst_RS/Busy_out_LDC to ba1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              2   0.498   0.845  Inst_A1_Rs/Inst_RS/Busy_out_LDC (Inst_A1_Rs/Inst_RS/Busy_out_LDC)
+     LUT3:I0->O            3   0.205   0.650  Inst_A1_Rs/Inst_RS/Busy_out1 (Inst_A1_Rs/Inst_RS/Busy_out)
+     OBUF:I->O                 2.571          ba1_OBUF (ba1)
+    ----------------------------------------
+    Total                      4.769ns (3.274ns logic, 1.496ns route)
+                                       (68.6% logic, 31.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_A2_Rs/Inst_RS/_i000011'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.769ns (Levels of Logic = 2)
+  Source:            Inst_A2_Rs/Inst_RS/Busy_out_LDC (LATCH)
+  Destination:       ba2 (PAD)
+  Source Clock:      Inst_A2_Rs/Inst_RS/_i000011 falling
+
+  Data Path: Inst_A2_Rs/Inst_RS/Busy_out_LDC to ba2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              2   0.498   0.845  Inst_A2_Rs/Inst_RS/Busy_out_LDC (Inst_A2_Rs/Inst_RS/Busy_out_LDC)
+     LUT3:I0->O            3   0.205   0.650  Inst_A2_Rs/Inst_RS/Busy_out1 (Inst_A2_Rs/Inst_RS/Busy_out)
+     OBUF:I->O                 2.571          ba2_OBUF (ba2)
+    ----------------------------------------
+    Total                      4.769ns (3.274ns logic, 1.496ns route)
+                                       (68.6% logic, 31.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_A3_Rs/Inst_RS/_i000011'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.769ns (Levels of Logic = 2)
+  Source:            Inst_A3_Rs/Inst_RS/Busy_out_LDC (LATCH)
+  Destination:       ba3 (PAD)
+  Source Clock:      Inst_A3_Rs/Inst_RS/_i000011 falling
+
+  Data Path: Inst_A3_Rs/Inst_RS/Busy_out_LDC to ba3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              2   0.498   0.845  Inst_A3_Rs/Inst_RS/Busy_out_LDC (Inst_A3_Rs/Inst_RS/Busy_out_LDC)
+     LUT3:I0->O            3   0.205   0.650  Inst_A3_Rs/Inst_RS/Busy_out1 (Inst_A3_Rs/Inst_RS/Busy_out)
+     OBUF:I->O                 2.571          ba3_OBUF (ba3)
+    ----------------------------------------
+    Total                      4.769ns (3.274ns logic, 1.496ns route)
+                                       (68.6% logic, 31.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_L1_Rs/Inst_RS/_i000011'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.769ns (Levels of Logic = 2)
+  Source:            Inst_L1_Rs/Inst_RS/Busy_out_LDC (LATCH)
+  Destination:       bl1 (PAD)
+  Source Clock:      Inst_L1_Rs/Inst_RS/_i000011 falling
+
+  Data Path: Inst_L1_Rs/Inst_RS/Busy_out_LDC to bl1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              2   0.498   0.845  Inst_L1_Rs/Inst_RS/Busy_out_LDC (Inst_L1_Rs/Inst_RS/Busy_out_LDC)
+     LUT3:I0->O            3   0.205   0.650  Inst_L1_Rs/Inst_RS/Busy_out1 (Inst_L1_Rs/Inst_RS/Busy_out)
+     OBUF:I->O                 2.571          bl1_OBUF (bl1)
+    ----------------------------------------
+    Total                      4.769ns (3.274ns logic, 1.496ns route)
+                                       (68.6% logic, 31.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_L2_Rs/Inst_RS/_i000011'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.769ns (Levels of Logic = 2)
+  Source:            Inst_L2_Rs/Inst_RS/Busy_out_LDC (LATCH)
+  Destination:       bl2 (PAD)
+  Source Clock:      Inst_L2_Rs/Inst_RS/_i000011 falling
+
+  Data Path: Inst_L2_Rs/Inst_RS/Busy_out_LDC to bl2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              2   0.498   0.845  Inst_L2_Rs/Inst_RS/Busy_out_LDC (Inst_L2_Rs/Inst_RS/Busy_out_LDC)
+     LUT3:I0->O            3   0.205   0.650  Inst_L2_Rs/Inst_RS/Busy_out1 (Inst_L2_Rs/Inst_RS/Busy_out)
+     OBUF:I->O                 2.571          bl2_OBUF (bl2)
+    ----------------------------------------
+    Total                      4.769ns (3.274ns logic, 1.496ns route)
+                                       (68.6% logic, 31.4% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock Inst_A1_Rs/Inst_RS/_i000011
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    2.349|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock Inst_A2_Rs/Inst_RS/_i000011
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    2.349|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock Inst_A3_Rs/Inst_RS/_i000011
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    2.349|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock Inst_L1_Rs/Inst_RS/_i000011
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    2.349|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock Inst_L2_Rs/Inst_RS/_i000011
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    2.349|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clk
+---------------------------+---------+---------+---------+---------+
+                           | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock               |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------------+---------+---------+---------+---------+
+Inst_A1_Rs/Inst_RS/_i000011|         |    1.650|         |         |
+Inst_A2_Rs/Inst_RS/_i000011|         |    1.650|         |         |
+Inst_A3_Rs/Inst_RS/_i000011|         |    1.650|         |         |
+Inst_L1_Rs/Inst_RS/_i000011|         |    1.650|         |         |
+Inst_L2_Rs/Inst_RS/_i000011|         |    1.650|         |         |
+clk                        |    2.349|         |         |         |
+issue_a1                   |    1.747|         |         |         |
+issue_a2                   |    1.747|         |         |         |
+issue_a3                   |    1.747|         |         |         |
+issue_l1                   |    1.747|         |         |         |
+issue_l2                   |    1.747|         |         |         |
+---------------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 3.78 secs
+ 
+--> 
+
+
+Total memory usage is 484532 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   51 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

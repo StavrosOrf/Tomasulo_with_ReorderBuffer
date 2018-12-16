@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ise/XilinxShareVm/v.4/Tomasulo_lab1v2. 4/v2/Tomasulo_lab1/Tomasulo_TopLevel/test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="my_package_vector" />
+            <top_module name="my_package_vector_rob" />
+            <top_module name="my_package_vectorv" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="0" />
+</wave_config>

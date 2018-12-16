@@ -1,0 +1,56 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "secureip" -o "D:/Xillinx_Projects/Tomasulo_lab1/RF_Top_Level/test_rf_isim_beh.exe" -prj "D:/Xillinx_Projects/Tomasulo_lab1/RF_Top_Level/test_rf_beh.prj" "work.test_rf" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/RF_Top_Level/my_Package_VectorV.vhd" into library work
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/RF_Top_Level/../Register_Q/Register_Q.vhd" into library work
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/RF_Top_Level/../Register/Register.vhd" into library work
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/RF_Top_Level/../Q_Match_Module/my_Package_Vector.vhd" into library work
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/RF_Top_Level/../Mux_2x1_Q/Mux_2x1_Q.vhd" into library work
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/RF_Top_Level/../Mux_2x1_5b/Mux_2x1_5b.vhd" into library work
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/RF_Top_Level/../Mux_2x1_32b/Mux_2x1_32b.vhd" into library work
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/RF_Top_Level/../Mux_2x1/Mux_2x1.vhd" into library work
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/RF_Top_Level/../Register_with_muxes_Q/Register_with_muxes_Q.vhd" into library work
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/RF_Top_Level/../Register_with_muxes/Register_with_muxes.vhd" into library work
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/RF_Top_Level/../Mux_Reg_Q/Mux_Reg_Q.vhd" into library work
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/RF_Top_Level/../Mux_Reg/Mux_Reg.vhd" into library work
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/RF_Top_Level/../Decoder/Decoder.vhd" into library work
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/RF_Top_Level/../Compare_Module/Compare_Module.vhd" into library work
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/RF_Top_Level/../RF_Q_Module/RF_Q_Module.vhd" into library work
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/RF_Top_Level/../RF_Module/RF_Module.vhd" into library work
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/RF_Top_Level/../Q_Match_Module/Q_Match_Module.vhd" into library work
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/RF_Top_Level/RF_Top_Level.vhd" into library work
+Parsing VHDL file "D:/Xillinx_Projects/Tomasulo_lab1/RF_Top_Level/test__rf.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package my_package_vector
+Compiling package my_package_vectorv
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity Decoder [decoder_default]
+Compiling architecture behavioral of entity Mux_2x1_Q [mux_2x1_q_default]
+Compiling architecture behavioral of entity Mux_2x1_5b [mux_2x1_5b_default]
+Compiling architecture behavioral of entity Register_Q [register_q_default]
+Compiling architecture behavioral of entity Register_with_muxes_Q [register_with_muxes_q_default]
+Compiling architecture behavioral of entity Mux_Reg_Q [mux_reg_q_default]
+Compiling architecture behavioral of entity Compare_Module [compare_module_default]
+Compiling architecture behavioral of entity RF_Module_Q [rf_module_q_default]
+Compiling architecture behavioral of entity Mux_2x1 [mux_2x1_default]
+Compiling architecture behavioral of entity Mux_2x1_32b [mux_2x1_32b_default]
+Compiling architecture behavioral of entity Register1 [register1_default]
+Compiling architecture behavioral of entity Register_with_muxes [register_with_muxes_default]
+Compiling architecture behavioral of entity Mux_Reg [mux_reg_default]
+Compiling architecture behavioral of entity RF_Module_V [rf_module_v_default]
+Compiling architecture behavioral of entity Q_Match_Module [q_match_module_default]
+Compiling architecture behavioral of entity RF_Top_Level [rf_top_level_default]
+Compiling architecture behavior of entity test_rf
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 40 VHDL Units
+Built simulation executable D:/Xillinx_Projects/Tomasulo_lab1/RF_Top_Level/test_rf_isim_beh.exe
+Fuse Memory Usage: 37648 KB
+Fuse CPU Usage: 811 ms

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="946" delta="old" >"/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.vhd" Line 79: Actual for formal port <arg fmt="%s" index="1">wren_qj</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="old" >"/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.vhd" Line 80: Actual for formal port <arg fmt="%s" index="1">wren_qk</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="new" >"/home/ise/XilinxShareVm/Tomasulo_lab1/A_L_RS_Module/A_L_RS_Module.vhd" Line 101: Actual for formal port <arg fmt="%s" index="1">reset</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="new" >"/home/ise/XilinxShareVm/Tomasulo_lab1/A_L_RS_Module/A_L_RS_Module.vhd" Line 122: Actual for formal port <arg fmt="%s" index="1">reset</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="new" >"/home/ise/XilinxShareVm/Tomasulo_lab1/A_L_RS_Module/A_L_RS_Module.vhd" Line 143: Actual for formal port <arg fmt="%s" index="1">reset</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="new" >"/home/ise/XilinxShareVm/Tomasulo_lab1/A_L_RS_Module/A_L_RS_Module.vhd" Line 164: Actual for formal port <arg fmt="%s" index="1">reset</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="new" >"/home/ise/XilinxShareVm/Tomasulo_lab1/A_L_RS_Module/A_L_RS_Module.vhd" Line 185: Actual for formal port <arg fmt="%s" index="1">reset</arg> is neither a static name nor a globally static expression
+</msg>
+
+</messages>
+

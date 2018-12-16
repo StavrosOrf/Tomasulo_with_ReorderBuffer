@@ -1,0 +1,4 @@
+vhdl work "counter_standard.vhd"
+vhdl work "../Reorder_Buffer/my_package_vector_rob.vhd"
+vhdl work "../Counter_Module/Counter_Module.vhd"
+vhdl work "../Reorder_Buffer/Reorder_Buffer.vhd"

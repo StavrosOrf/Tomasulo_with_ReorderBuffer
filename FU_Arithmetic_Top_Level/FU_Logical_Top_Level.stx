@@ -1,0 +1,78 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/Xillinx_Projects/Tomasulo_lab1/FU_Arithmetic_Top_Level/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to D:/Xillinx_Projects/Tomasulo_lab1/FU_Arithmetic_Top_Level/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Reading design: FU_Logical_Top_Level.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "D:\Xillinx_Projects\Tomasulo_lab1\A_ALU\A_ALU.vhd" into library work
+Parsing entity <A_ALU>.
+Parsing architecture <Behavioral> of entity <a_alu>.
+Parsing VHDL file "D:\Xillinx_Projects\Tomasulo_lab1\Arithmetic_Control\Arithmetic_Control.vhd" into library work
+Parsing entity <Arithmetic_Control>.
+Parsing architecture <Behavioral> of entity <arithmetic_control>.
+Parsing VHDL file "D:\Xillinx_Projects\Tomasulo_lab1\FU_Arithmetic_Top_Level\FU_Arithmetic_Top_Level.vhd" into library work
+Parsing entity <FU_Arithmetic_Top_Level>.
+ERROR:HDLCompiler:580 - "D:\Xillinx_Projects\Tomasulo_lab1\FU_Arithmetic_Top_Level\FU_Arithmetic_Top_Level.vhd" Line 61: Mismatch on label ; expected fu_arithmetic_top_level
+ERROR:HDLCompiler:854 - "D:\Xillinx_Projects\Tomasulo_lab1\FU_Arithmetic_Top_Level\FU_Arithmetic_Top_Level.vhd" Line 32: Unit <fu_arithmetic_top_level> ignored due to previous errors.
+Parsing architecture <Behavioral> of entity <fu_logical_top_level>.
+ERROR:HDLCompiler:374 - "D:\Xillinx_Projects\Tomasulo_lab1\FU_Arithmetic_Top_Level\FU_Arithmetic_Top_Level.vhd" Line 63: Entity <fu_logical_top_level> is not yet compiled.
+ERROR:HDLCompiler:69 - "D:\Xillinx_Projects\Tomasulo_lab1\FU_Arithmetic_Top_Level\FU_Arithmetic_Top_Level.vhd" Line 64: <std_logic_vector> is not declared.
+ERROR:HDLCompiler:69 - "D:\Xillinx_Projects\Tomasulo_lab1\FU_Arithmetic_Top_Level\FU_Arithmetic_Top_Level.vhd" Line 65: <std_logic> is not declared.
+ERROR:HDLCompiler:69 - "D:\Xillinx_Projects\Tomasulo_lab1\FU_Arithmetic_Top_Level\FU_Arithmetic_Top_Level.vhd" Line 66: <std_logic_vector> is not declared.
+ERROR:HDLCompiler:69 - "D:\Xillinx_Projects\Tomasulo_lab1\FU_Arithmetic_Top_Level\FU_Arithmetic_Top_Level.vhd" Line 67: <std_logic_vector> is not declared.
+ERROR:HDLCompiler:69 - "D:\Xillinx_Projects\Tomasulo_lab1\FU_Arithmetic_Top_Level\FU_Arithmetic_Top_Level.vhd" Line 74: <op> is not declared.
+ERROR:HDLCompiler:69 - "D:\Xillinx_Projects\Tomasulo_lab1\FU_Arithmetic_Top_Level\FU_Arithmetic_Top_Level.vhd" Line 75: <vj> is not declared.
+ERROR:HDLCompiler:69 - "D:\Xillinx_Projects\Tomasulo_lab1\FU_Arithmetic_Top_Level\FU_Arithmetic_Top_Level.vhd" Line 76: <vk> is not declared.
+ERROR:HDLCompiler:69 - "D:\Xillinx_Projects\Tomasulo_lab1\FU_Arithmetic_Top_Level\FU_Arithmetic_Top_Level.vhd" Line 77: <tmp_alu_out> is not declared.
+ERROR:HDLCompiler:192 - "D:\Xillinx_Projects\Tomasulo_lab1\FU_Arithmetic_Top_Level\FU_Arithmetic_Top_Level.vhd" Line 77: Actual of formal out port alu_out cannot be an expression
+ERROR:HDLCompiler:69 - "D:\Xillinx_Projects\Tomasulo_lab1\FU_Arithmetic_Top_Level\FU_Arithmetic_Top_Level.vhd" Line 82: <qj1> is not declared.
+ERROR:HDLCompiler:69 - "D:\Xillinx_Projects\Tomasulo_lab1\FU_Arithmetic_Top_Level\FU_Arithmetic_Top_Level.vhd" Line 83: <qk1> is not declared.
+ERROR:HDLCompiler:69 - "D:\Xillinx_Projects\Tomasulo_lab1\FU_Arithmetic_Top_Level\FU_Arithmetic_Top_Level.vhd" Line 84: <qj2> is not declared.
+ERROR:HDLCompiler:69 - "D:\Xillinx_Projects\Tomasulo_lab1\FU_Arithmetic_Top_Level\FU_Arithmetic_Top_Level.vhd" Line 85: <qk2> is not declared.
+ERROR:HDLCompiler:69 - "D:\Xillinx_Projects\Tomasulo_lab1\FU_Arithmetic_Top_Level\FU_Arithmetic_Top_Level.vhd" Line 86: <qj3> is not declared.
+ERROR:HDLCompiler:69 - "D:\Xillinx_Projects\Tomasulo_lab1\FU_Arithmetic_Top_Level\FU_Arithmetic_Top_Level.vhd" Line 87: <qk3> is not declared.
+ERROR:HDLCompiler:69 - "D:\Xillinx_Projects\Tomasulo_lab1\FU_Arithmetic_Top_Level\FU_Arithmetic_Top_Level.vhd" Line 88: <reset> is not declared.
+Sorry, too many errors..
+--> 
+
+Total memory usage is 4517068 kilobytes
+
+Number of errors   :   19 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,5 @@
+work	"../Mux_2x1_32b/Mux_2x1_32b.vhd"
+work	"../Mux_2x1_5b/Mux_2x1_5b.vhd"
+work	"../Reservation_Station/Reservation_Station.vhd"
+work	"../Reservation_Station_Top_Level/Reservation_Station_Top_Level.vhd"
+work	"A_L_RS_Module.vhd"

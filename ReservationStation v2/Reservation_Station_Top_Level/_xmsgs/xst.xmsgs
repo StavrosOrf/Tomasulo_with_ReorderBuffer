@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="946" delta="new" >"/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.vhd" Line 79: Actual for formal port <arg fmt="%s" index="1">wren_qj</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="new" >"/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.vhd" Line 80: Actual for formal port <arg fmt="%s" index="1">wren_qk</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station/Reservation_Station.vhd" Line 62: <arg fmt="%s" index="1">wren_busy</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station/Reservation_Station.vhd" Line 65: <arg fmt="%s" index="1">wren_vj</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station/Reservation_Station.vhd" Line 68: <arg fmt="%s" index="1">wren_vk</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station/Reservation_Station.vhd" Line 71: <arg fmt="%s" index="1">wren_qj</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station/Reservation_Station.vhd" Line 74: <arg fmt="%s" index="1">wren_qk</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station/Reservation_Station.vhd" Line 77: <arg fmt="%s" index="1">wren_op</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.vhd" Line 150: <arg fmt="%s" index="1">reset</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/ise/XilinxShareVm/Tomasulo_lab1/Reservation_Station_Top_Level/Reservation_Station_Top_Level.vhd" Line 152: <arg fmt="%s" index="1">reset</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">tmp_busy</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="3002" delta="old" >This design contains one or more registers/latches that are directly
+incompatible with the <arg fmt="%s" index="1">Automotive Spartan6</arg> architecture. The two primary causes of this is
+either a register or latch described with both an asynchronous set and
+asynchronous reset, or a register or latch described with an asynchronous
+set or reset which however has an initialization value of the opposite 
+polarity (i.e. asynchronous reset with an initialization value of 1).
+ While this circuit can be built, it creates a sub-optimal implementation
+in terms of area, power and performance. For a more optimal implementation
+Xilinx highly recommends one of the following:
+
+       1) Remove either the set or reset from all registers and latches
+          if not needed for required functionality
+       2) Modify the code in order to produce a synchronous set
+          and/or reset (both is preferred)
+       3) Ensure all registers have the same initialization value as the
+          described asynchronous set or reset polarity
+       4) Use the -async_to_sync option to transform the asynchronous
+          set/reset to synchronous operation
+          (timing simulation highly recommended when using this option)
+</msg>
+
+<msg type="warning" file="Xst" num="1336" delta="old" > (*) More than 100% of Device resources are used
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

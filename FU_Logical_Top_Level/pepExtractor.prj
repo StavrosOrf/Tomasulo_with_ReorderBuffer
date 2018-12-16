@@ -1,0 +1,6 @@
+work	"../L_ALU/L_ALU.vhd"
+work	"../Mux_2x1_2b/Mux_2x1_2b.vhd"
+work	"../Mux_2x1_32b/Mux_2x1_32b.vhd"
+work	"../Mux_2x1_5b/Mux_2x1_5b.vhd"
+work	"../Register_FU/Register_FU.vhd"
+work	"FU_Logical_Top_Level.vhd"

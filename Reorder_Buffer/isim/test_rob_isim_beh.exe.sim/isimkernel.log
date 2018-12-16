@@ -1,0 +1,31 @@
+Command line:
+   test_rob_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  64860
+
+Wed Nov 28 19:40:53 2018
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5178.92 Meg
+
+ Total Signals          : 49
+ Total Nets             : 4061
+ Total Signal Drivers   : 28
+ Total Blocks           : 10
+ Total Primitive Blocks : 8
+ Total Processes        : 18
+ Total Traceable Variables  : 19
+ Total Scalar Nets and Variables : 5084
+Total Line Count : 78
+In process Reorder_Buffer.vhd:87 
+ 
+
+ Total Simulation Time: 0.140625 sec
+
+ Current Memory Usage: 5021.63 Meg
+
+Wed Nov 28 19:44:07 2018
+
